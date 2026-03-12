@@ -1,0 +1,25 @@
+{
+  "city": "Санкт-Петербург",
+  "zones": 18,
+  "sources": {
+    "preset": 11,
+    "preset_missing": 7
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 78
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 86.5,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:12:18"
+}

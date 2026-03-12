@@ -1,0 +1,77 @@
+[
+  {
+    "source": "cian",
+    "deal_type": "rent",
+    "price": 29000,
+    "rooms": "2",
+    "area": 45.6,
+    "floor": "2/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, просп.",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950026-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950026-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950656-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950699-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817949931-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950545-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950788-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817949939-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950201-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950250-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2817950865-1.jpg"
+    ],
+    "link": "https://www.cian.ru/rent/flat/323462924/",
+    "title": "2-комн., 46 м²",
+    "rent_period": "month"
+  },
+  {
+    "source": "cian",
+    "deal_type": "rent",
+    "price": 24000,
+    "rooms": "2",
+    "area": 42.0,
+    "floor": "2/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, просп.",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787120444-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787120444-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787498016-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150116-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150113-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150104-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150117-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150118-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150120-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150114-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2787150119-1.jpg"
+    ],
+    "link": "https://www.cian.ru/rent/flat/326284029/",
+    "title": "2-комн., 42 м²",
+    "rent_period": "month"
+  },
+  {
+    "source": "cian",
+    "deal_type": "rent",
+    "price": 50000,
+    "rooms": "2",
+    "area": 44.0,
+    "floor": "1/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, просп.",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812509037-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812509037-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812516605-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812508872-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812508976-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812516628-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812508823-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812508807-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812516623-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812516629-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2812516606-1.jpg"
+    ],
+    "link": "https://www.cian.ru/rent/flat/327136878/",
+    "title": "2-комн., 44 м²",
+    "rent_period": "month"
+  }
+]

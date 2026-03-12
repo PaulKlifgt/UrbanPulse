@@ -1,0 +1,25 @@
+{
+  "city": "Пермь",
+  "zones": 7,
+  "sources": {
+    "preset": 5,
+    "preset_missing": 2
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 33
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 140.6,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:29:37"
+}

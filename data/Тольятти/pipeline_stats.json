@@ -1,0 +1,25 @@
+{
+  "city": "Тольятти",
+  "zones": 3,
+  "sources": {
+    "preset": 2,
+    "preset_missing": 1
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 15
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 61.4,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:38:11"
+}

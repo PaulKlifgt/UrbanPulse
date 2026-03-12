@@ -1,0 +1,25 @@
+{
+  "city": "Уфа",
+  "zones": 7,
+  "sources": {
+    "preset": 3,
+    "preset_missing": 4
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 29
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 28.7,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:23:03"
+}

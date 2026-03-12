@@ -1,0 +1,24 @@
+{
+  "city": "Ярославль",
+  "zones": 6,
+  "sources": {
+    "preset": 6
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 20
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 110.2,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:47:32"
+}

@@ -1,0 +1,25 @@
+{
+  "city": "Томск",
+  "zones": 4,
+  "sources": {
+    "preset": 3,
+    "preset_missing": 1
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 20
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 83.0,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:50:02"
+}

@@ -1,0 +1,25 @@
+{
+  "city": "Самара",
+  "zones": 9,
+  "sources": {
+    "preset": 7,
+    "preset_missing": 2
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 43
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 37.4,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:20:18"
+}

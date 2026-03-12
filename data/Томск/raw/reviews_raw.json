@@ -1,0 +1,7280 @@
+{
+  "Кировский": [
+    {
+      "text": "Живая аптека — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Face club — работает (21:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — работает (Mo-Su 08:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Томск 634012 — работает (Tu-Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Зоомагазин70 — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ателье Белка — работает (Tu,Th 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фотосалон Объектив — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Золотая рыбка — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живая аптека — работает (Mo-Fr 09:00-21:00; Sa,Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дебют — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дебют — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Колобок.ру — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колобок.ру — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Эконом — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Промсвязьбанк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:30-18:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Союз — работает (Mo-Fr 07:30-23:00; Sa-Su 09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Компьютерный мир — работает (Mo-Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Компьютерный мир (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Центральная — работает (Mo-Fr 10:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Центральная (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Сказка — работает (Mo-Fr,Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Сказка (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Цирюльникъ — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Цирюльникъ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Светлячок — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №41 — работает (Mo off; Tu-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №41 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Колобок.ru — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вита — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фрукты — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фрукты — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "ВТБ — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ВТБ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Есть повод! — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть повод! — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Чикаго — работает (Mo-Fr 10:00-20:00; Sa 11:00-19:00; Su 12:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Krasa — работает (Mo-Fr 09:00-20:00; Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Люкс — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Розы от Морозовой — работает (Mo-Su 08:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ясен Хмель — работает (Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 00:00-01:00,11:00-00:00; Su 00:00-01:00,11:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томск 634034 — работает (Mo-Fr 08:00-19:00; Sa 09:00-18:00; Su 09:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Здоровье — работает (Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бульвар — работает (Mo-Su 11:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирские блины — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фруктовый дом — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Столовая НИ ТПУ — работает (08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Добрый стоматолог — работает (Mo-Fr 09:00-19:00; Sa 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Московский областной банк — работает (Mo-Sa 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Выбор — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Место под солнцем — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Скарлет — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Южанка — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Южанка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "18+ — работает (Mo-Fr 11:00-19:00; Sa-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "18+ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Радиотехник — работает (Mo-Fr 10:00-19:00; Sa 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Радиотехник — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Лека — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рассвет — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рассвет — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Планета здоровья — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Твоя булочная — работает (08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Файз — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лека — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Любава — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Любава — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Астория — работает (Mo-Fr 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Спорт СЕ — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Спорт СЕ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Башня — работает (Mo-Fr 11:00-19:00; Sa 12:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Башня — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирские Блины — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (PH,Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "ТриО — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Домовая кухня №2 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Областной эндокринологический центр — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Клеопатра — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клеопатра — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Alligator — работает (Mo-Su 08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Незабудка — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ремонт обуви — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Полли Вилли — работает (Mo-Sa 10:00-20:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "АкваКомфорт — работает (Mo-Fr 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Браво М — работает (Mo-Fr 09:00-19:00; Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Нахимовский — работает (Mo-Fr 9:00-19:00; Sa 11:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Превентива — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "StudioArt — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "За рулём — работает (Mo-Fr 09:00-19:00; Sa 10:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Восточная кухня — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Интант — работает (Mo-Fr 09:00-19:00; Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Интант — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Amadey — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "DNS — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "56-я паралель — работает (09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Срочный ремонт обуви — работает (Mo-Sa 10:00-19:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ломбард-1 — работает (10:00-14:00,14:30-18:50)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ломбард-1 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Dog Land — работает (Mo-Fr 11:00-19:00; Sa 11:00-18:00; Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Коррекция — работает (Mo-Fr 11:00-18:00; Sa 12:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Dream House — работает (Mo-Fr 10:00-20:00; Sa 11:00-18:00; Su 12:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Октябрьский — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Акварель — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бобер — работает (Mo-Fr 10:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ХозСити — работает (Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мегафон — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "С.П.С.-АВИА — работает (Mo-Fr 09:00-19:00; Sa-Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Max Grill — работает (Mo-Sa 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Центр консультаций и медицинских осмотров — работает (Mo-Fr 07:30-18:00; Sa 07:30-13:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центр консультаций и медицинских осмотров — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "СпортСервисЦентр — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кафе «City» — работает (Mo-Fr 08:30-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Детский центр восстановительного лечения — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Профи Электромаркет — работает (Mo-Fr 08:45-19:00; Sa-Su 09:30-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Участковый — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Модернизация — работает (Mo-Fr 10:00-19:00; Sa 11:00-19:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Модернизация — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Монитор — работает (Mo-Su 10:00-14:00,15:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "У бродячей собаки — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Колобок.Ru — работает (Mo-Su 9:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Завод — работает (Fr-Sa 20:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студенческая столовая — работает (10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Антонов двор — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Антонов двор — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Малина — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Малина — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "F city — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "F city — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "КопиShop — работает (Mo-Su 09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Контейнер \"Чистый мир\" — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красный экспресс — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красный экспресс — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "apteka.ru — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Victor Hugo — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №634045 — работает (Mo-Fr 09:00-19:00; Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Звёздочка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Абрикос — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Канцлер — работает (Mo-Fr 10:00-20:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Южное — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лековит — работает (Mo-Su 09:00-15:00,15:30-20:45)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лековит — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Семейное кафе — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — работает (9:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "O'Hara — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мой Доктор — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фармакопейка — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ням-Ням — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лось навеселе — работает (Mo-Su 13:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Братья Коцоевы — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека Южная — работает (09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пицце Рио — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Палитра тканей — работает (Mo-Fr 11:30-19:00; Sa 11:30-18:00; Su 11:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Палитра тканей — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирские блины — работает (Mo-Su 08:30-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ирис — работает (Mo-Sa 08:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аян — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Весёлый фейерверк — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Весёлый фейерверк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Центр Обручальных колец — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томские товары — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томские товары — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "SV Центр — работает (Mo-Fr 10:00-20:00; Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "SV Центр — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Rieker — работает (Mo-Fr 09:00-19:30; Sa,Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ронокс — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Межениновская птицефабрика — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Межениновская птицефабрика — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "МТС — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сладкарница — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Васса — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Копирка — работает (Mo-Fr 08:00-18:00; Sa 08:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ромашка — работает (Mo-Fr 10:00-21:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Детский Разноторг — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Теле2 — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Билайн — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Rocket Coffee, кофейня — работает (Mo-Su 07:20-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ТУСУР, Библиотека — работает (09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть ТУСУР, Библиотека (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "ЧОУ ДПО ТУКК Максимум — работает (Fr 10:00-17:00; Mo-Th 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красотка — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Транзит — работает (08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ткани и фурнитура — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Техномаг — работает (10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "e`llipse — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живая аптека — работает (08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дамское счастье — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Kari — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шок — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Недорогой — работает (09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Недорогой — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Марафет — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Марафет — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Тинтория — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Русское золото — работает (10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Продукты — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ал.Та. — работает (09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ford — работает (10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кассандра — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Архимед — работает (10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ШашлыкоFF — работает (Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ШашлыкоFF — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мой доктор — работает (Mo-Fr 08:30-21:00; Sa-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бродвей — работает (19:00-03:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рублевка — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Столовая — работает (11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Столовая — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Столовая — работает (11:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Переменка — работает (08:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шиномонтаж — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лека — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Активный отдых — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Территория Кофе — работает (Mo-Su 07:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "YOKI TOKI — работает (Mo-Th 10:00-22:00, Fr-Sa 10:00-23:00, Su 11:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лечебно-диагностический центр — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мария-Ра — работает (09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Хинкали-Тун — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Respect — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Mixit — работает (Mo-Su 10:00 - 22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Askona — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 07:30-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "#МНОГОПИВА — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Октябрь (cinema)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "33 пингвина — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Yves Rocher — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Yves Rocher — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Дом детства и юношества \"Кедр\" — работает (Mo-Su 08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Дом детства и юношества \"Кедр\" (community_centre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Rocket Coffee, кофейня — работает (Mo-Su 07:20-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Rocket Coffee, кофейня — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "SevenDays — работает (Mo-Sa 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "SevenDays — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Уральский банк реконструкции и развития — работает (Mo-Fr 09:00-19:00;Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Уральский банк реконструкции и развития — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клевый — работает (Mo-Su 10:00-19:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "DNS — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Йохан Пивохан — работает (Su-Th 12:00-23:00; Fr-Sa 12:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Йохан Пивохан — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Эльдорадо — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Альфа-Банк — работает (Mo-Fr 09:00-20:00; Sa 10:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кофан — работает (07:30-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автоэмали — работает (Mo-Fr 09:00-18:00; Sa 10:00-17:00; Su 10:00-13:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автоэмали — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Магнит — работает (PH,Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Spar — работает (PH,Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Spar — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Edatomsk.ru — работает (Mo-Fr 08:00-18:00; Sa 09:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шашлык — работает (Mo-Su 06:30-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Таджикская кухня \"Мир\" — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Таджикская кухня \"Мир\" — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Авангард — работает (Mo-Fr 09:30-17:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Авангард — работает (Mo-Su 10:00-21:15)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Авангард — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Lazurit — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Marmalato — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Marmalato — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Q Store — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Быстроденьги — работает (Mo-Fr 09:00-20:00;Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "O'Hara — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Gloria Jeans — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Линии Любви — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00;Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-21:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ремонт велосипедов Спортцех — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ремонт велосипедов Спортцех — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Планета здоровья — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Планета здоровья — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Spar — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тесто — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Канцелярский мир — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лека — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живая аптека — работает (Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "BunDogs — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Спорт ЕВ — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СпортЭкстрим — работает (Mo-Fr 14:00-21:00; Sa-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Массив Спорт — работает (Mo-Fr 12:00-21:00; Sa-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чистый мир — работает (Mo-Fr 08:00-12:00,13:00-19:00; Sa-Su 14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Йохан Пивохан — работает (Su-Th 13:00-24:00; Fr-Sa 13:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Два лимона — работает (Mo-Su 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живая Аптека — работает (Mo-Fr 08:00-18:00; Sa-Su 09:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живая Аптека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Эвалар — работает (Mo-Fr 07:30-20:00; Sa-Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Trives — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Планета Зоо — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "InФокус — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тайга — работает (Mo-Su 18:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мясная лавка — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Automag — работает (Mo-Fr 09:00-19:00;Sa 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ростовская шаурма — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "САВС Томск — работает (Mo-Fr 09:30-20:00; Sa-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ассорти — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Rostic's — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ШауRoom — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ростовская шаурма — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фонбет — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стройся — работает (Mo-Su 07:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шок — работает (Mo-Su 10:00-19:45)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центральные курсы водителей — работает (Mo-Fr 10:00-14:00,14:30-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Яблочная столовая — работает (Mo-Fr 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Яблочная столовая — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Европейская фурнитура — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Give me two — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автомотив — работает (Mo-Fr 08:00-21:00;Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Yves Rocher — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "М.Видео — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мясоroob — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "e2e4 — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "DPI — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Калина-малина — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Твоя булочная — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Black Grill — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Новэкс — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "МТС — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "МТС — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Su 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Su 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Fr 07:30-19:00; Sa-Su 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Совкомбанк — работает (Mo-Fr 09:00-19:00;Sa-Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Билайн — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Kannam Chicken — работает (Mo-Su 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Теплэко — работает (Mo-Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибавтоматика+ — работает (Mo-Fr 09:00-18:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибавтоматика+ — работает (Mo-Fr 09:00-18:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 07:30-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Фасоль — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Kuchenland — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Kuchenland — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "ОмниСДЭК — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "585 Золотой — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "АвтоЛайф — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Умные радости — работает (Mo-Sa 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "4u — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sibcar70 — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Золотой Орел — работает (Mo-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вкусно-Полезно — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Dizanika — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кофе-шоп — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:30-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Чёрный Боб — работает (Mo-Fr 08:00-20:00; Sa 09:00-20:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тело души — работает (Mo-Fr 09:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тело души — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирская усадьба — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кпд здоровье — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Anhels — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Агентство воздушных сообщений — работает (Mo-Fr 09:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Еврострой — работает (Mo-Fr 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ilfumo — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Авикс — работает (Mo-Fr 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Cashtime — работает (Mo-Fr 11:00-19:00; Sa 12:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Березка — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ЦКБ — работает (Mo-Su 08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Штучки.pro — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Айклиник — работает (Mo-Fr 08:00-20:00; Sa 09:00-16:00; Su 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Карат — работает (Mo-Fr 08:00-20:00; Sa 08:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Этносибирь — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Золотые медведи — работает (Mo-Su 10:00-14:00,14:30-18:45)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эко лес — работает (Mo-Fr 09:00-18:00; Sa 10:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nail craft — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nail craft — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Hijama room — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Город zoo — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Парацельс — работает (Mo-Fr 10:00-19:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "18+ — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автосистемы — работает (Mo-Fr 09:00-18:30; Sa 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кладовая здоровья — работает (Mo-Sa 10:00-19:30; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Южный карьер — работает (Fr 09:00-13:00,14:00-17:00; Mo-Th 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Гараж позитива — работает (Mo-Fr 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томвет — работает (Mo-Su 08:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бит бомбит — работает (Mo-Sa 10:00-12:00,15:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Idea light — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Семейная оптика — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ортопедический салон №1 — работает (Mo-Su 09:30-19:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "А мы тут, всё плюшками балуемся — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Зуб-ок — работает (Mo-Sa 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Зуб-ок — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Тонировка за час — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fitness Formula — работает (Mo-Fr 09:00-20:00; Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Академия шитья — работает (Tu,Th 10:00-20:00; We,Fr-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ХозСити — работает (Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Роскедр — работает (Mo-Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Новэкс — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Л'Этуаль — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Хлебушко — работает (Mo-Fr 08:00-21:30; Sa 08:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ноgти — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Охотактив — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Охотактив — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Центр декоративных покрытий — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клиника дентальной имплантологии — работает (Mo-Fr 09:00-20:00; Sa 09:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Garage — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Weit — работает (Mo-Sa 12:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стандарт-Авто — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Особая мода — работает (Tu-Su 12:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аян — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:00-19:00; Sa 09:30-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пирожковая — работает (Mo-Su 07:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирский доктор — работает (Mo-Fr 08:00-20:00; Sa 09:00-17:00; Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Петрушка — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рыбная тема — работает (Mo-Su 09:00-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мой доктор — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Krüger haus — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инструмент Маркет — работает (Mo-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "585 Золотой — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Four kings — работает (Tu-Fr 10:00-21:00; Sa 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Four kings — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "ТВОЕ — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Безумно. — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Яндекс.Маркет — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Булочная — работает (Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Булочная — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "СДЭК — работает (Fr-Su 10:00-23:00; Mo-Th 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Exist.ru — работает (Mo-Fr 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Апрель — работает (Mo-Su 08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека 70 плюс — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека 70 плюс — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "ЧебурекМи — работает (Mo-Su 09:30-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Sokolov — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sokolov — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вега — работает (Mo-Sa 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вега — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Laser Love — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чайхана 70 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "ВТБ — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ВТБ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Surf Coffee — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шейк — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Торта — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сафари — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Живой взгляд — работает (Mo-Fr 08:00-18:00; Sa-Su 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Живой взгляд — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Кладовая здоровья — работает (Mo-Sa 10:00-19:30; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "BetBoom — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пекарский дворик — работает (Mo-Fr 07:15-20:00; Sa-Su 08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кладовая здоровья — работает (Mo-Sa 10:00-19:30; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Lerro optical studio from Siberia — работает (Mo-Sa 10:00-20:00; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Cosmo — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "The Lounge — работает (Fr-Sa 12:00-04:00; Mo-Th,Su 12:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Здрава — работает (Mo-Fr 08:00-20:00; Sa 08:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Спортайм — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фарадей — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибтехпром — работает (Mo-Fr 08:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пленка — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Домгрей — работает (Mo-Fr 10:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Потенциал — работает (Mo-Fr 09:00-19:00; Sa-Su 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томич — работает (Mo-Fr 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Твой Барбер — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Академия — работает (Fr 09:00-13:00,14:00-17:00; Mo-Th 09:00-13:00,14:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Халатывтомске — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ковровый стиль — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СибЭкспо — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колибри — работает (Mo-Fr 08:00-20:00; Sa 09:00-19:00; Su 09:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Mitsubishi club — работает (Mo-Fr 10:00-19:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ТочкаЗрения — работает (Mo-Sa 09:00-19:00; Su 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Драгоценные подарки — работает (Mo-Sa 10:00-19:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ДюСо — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Брили Стригли — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sneaknfresh — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "T-arena — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Anex Tour — работает (Mo-Fr 10:00-19:00; Sa 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Van cliff — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Barberhub — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Властелин света — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Гвоздь — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "PugsCoffee corp — работает (Mo-Su 07:30-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автодом южный — работает (Mo-Fr 08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ТоргСтрой — работает (Mo-Fr 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Зебра — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Обои в Томске — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "SI — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Крепёж Центр — работает (Mo-Fr 08:30-19:00; Sa 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лента — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Окна бэст — работает (Mo-Fr 09:30-18:00; Sa 10:30-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Shtories — работает (Mo-Fr 11:00-18:00; Sa 11:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "DNS Technopoint — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мечта — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мечта — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Бристоль — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Барбершоп 42/16 — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Барбершоп 42/16 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Суши Уме — работает (Mo-Th,Su 11:00-22:00; Fr-Sa 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Суши Уме — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Кружевница — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Жемчуг — работает (Mo-Sa 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Жемчуг — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Голд Авто Инвест — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Millstream — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Millstream — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ева и Адам — работает (Mo-Fr 08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ева и Адам — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Межениновская птицефабрика — работает (Mo-Sa 09:00-20:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Межениновская птицефабрика — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Бристоль — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бристоль — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Fix Price — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мария-Ра — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Зооветсервис — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Швейные машины Белошвейка — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Русское пиво — работает (11:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студия цвета — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студия цвета — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Карандаш — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мария-Ра — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Жасмина — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sunlight — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sunlight — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фармакопейка — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Rostic's — работает (Mo-Su 10:00-01:45)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Boxberry — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Boxberry — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Boxberry — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центр проблемной стопы — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центр проблемной стопы — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Главпивторг — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Главпивторг — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Колпашевский рыбозавод — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колпашевский рыбозавод — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Водяной — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бочка — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чижик — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чижик — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сдоба — работает (Mo-Fr 07:30-21:30; Sa 08:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сдоба — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Снежная королева — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Снежная королева — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Обувь и одежда — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "ТканИЯ — работает (11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кофейня — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мир сумок и чемоданов — работает (Mo-Sa 10:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мир сумок и чемоданов — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Почта Банк — работает (Mo-Fr 09:00-13:00,14:00-18:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почта Банк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Sunlight — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sunlight — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Совкомбанк — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "iStore — работает (Mo-Fr 11:00-18:00; Sa 11:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Восточная кухня — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Восточная кухня — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мебельный куб — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мебельный куб — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Аптека Плюс — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "КМ — работает (Mo-Fr 09:00-21:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "КМ — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Oil70 — работает (Mo-Sa 08:00-20:00; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Oil70 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Елена — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "7 чудес — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:30-18:30; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Корея Центр — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "22 ступени — работает (11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "22 ступени — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Участковый пункт полиции N9 и 10 — работает (Tu,Th 17:00-19:00; Sa 15:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Участковый пункт полиции N9 и 10 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "48 пивоваров — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Добродент — работает (Mo,We,Fr 15:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Добродент — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ортобатлер — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Тимбер — работает (Mo-Fr 10:30-18:30; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тимбер — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:00-18:30; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Маленькие радости — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Baba roma — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Здравсити — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лавка художника — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лавка художника — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Кофе чай — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кофе чай — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Аян, — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аян, — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Пятёрочка — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "По градУсам — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "По градУсам — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Кинезик — работает (Mo-Fr 08:00-20:00; Sa 08:00-16:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "XO Bakery — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Арт кондитер — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Модная точка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Два бро — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Tezaurum travel — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Panda Jui — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Haier — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дамское счастье — работает (11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дамское счастье — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сдоба — работает (Mo-Fr 07:30-21:30; Sa 08:00-21:00; Su 08:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Жарим & Варим — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Твой сад — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Акконд — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Два батона — работает (Mo-Fr 07:00-21:30; Sa 08:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (Mo-Su 10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Fr 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Paradox coffee — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Садовод — работает (Mo-Fr 11:00-18:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Читай-город — работает (Mo-Su 10:00-21:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Научно-техническая библиотека ТПУ (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Шампур — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека N 69 — работает (08:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека N 69 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Роснефть — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Йохан Пивохан — работает (Su-Th 13:00-24:00, Fr,Sa 13:00-03:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Горбольница №3 — работает (Mo-Fr 07:30-20:00; Sa-Su 09:00-13:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клинико-диагностическое отделение (кардиодиспансер) НИИ кардиологии — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Фонтан Молодости — construction",
+      "rating": 2,
+      "source": "osm_negative"
+    },
+    {
+      "text": "Межвузовская поликлиника — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вкусно — и точка — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вкусно — и точка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирские Блины — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Vaffel — работает (Mo-Su 10:00-23:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nam Pho — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Edison Lounge — работает (Mo-Su 12:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Много магазинов (62)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Отличный транспорт (53)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Парки (20)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Площадки (87)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Медицина (16)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Школы (11), садики (18)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Кафе (61)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Развитый район",
+      "rating": 5,
+      "source": "infra"
+    }
+  ],
+  "Ленинский": [
+    {
+      "text": "Главпочтамт — работает (Mo-Fr 08:00-22:00; Sa,Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Главпочтамт — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Скоморох — работает (Mo-Fr 10:00-18:00; Sa-Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Скоморох (theatre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Центральная — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лента — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лента — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Аэлита — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Аэлита (cinema)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Вита — работает (Mo-Fr 08:00-21:00; Sa,Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Библиотека имени Пушкина, корпус 2 (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Научно-медицинская библиотека СибГМУ — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Научно-медицинская библиотека СибГМУ (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Elke Auto — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "1000 мелочей — construction",
+      "rating": 2,
+      "source": "osm_negative"
+    },
+    {
+      "text": "Есть Научно-техническая библиотека ТГАСУ (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Харатс — работает (Mo-Th,Su 12:00-02:00; Fr-Sa 12:00-04:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Харатс — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Джинсовый стиль — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Krüger Haus — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Аптека-инфо — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека-инфо — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Spar — работает (07:30-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вита — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студия цветов Ларисы Балашовой — работает (Mo-Sa 09:00-21:00; Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студия цветов Ларисы Балашовой — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Учебник — работает (Mo-Fr 10:00-19:00; Sa 11:00-18:00; Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Учебник — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Святителя Луки — работает (Mo-Fr 08:00-20:00; Sa 10:00-16:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "O'Hara — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "O'Hara — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "PastaMama — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Идеал — работает (Mo-Fr 09:00-20:00; Sa 09:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Читай-город — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №29 — работает (Mo,Su off; Tu-Fr 09:00-13:00,14:00-18:00; Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №29 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Terranova — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сувениры — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирь — работает (Mo-Fr 07:30-23:00; Sa,Su 08:30-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тимьян — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тимьян — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Птичка — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Птичка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Kafedra — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Игрем — работает (Mo-Fr 09:00-19:00; Sa 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Софт лофт — работает (Mo-Fr 09:00-23:00; Sa-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Звезда кино — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Газпромнефть — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Газпромнефть — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пышечка — работает (Mo-Sa 10:00-20:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пышечка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Центр семейной медицины (№8) — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Глобус — работает (10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Клиника Тверская — работает (Mo-Fr 09:00-19:00; Sa 09:00-14:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клиника Тверская — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Тверстом — работает (Mo-Fr 09:00-19:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Тверстом — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Женская консультация — работает (Mo-Fr 08:00-20:00; Sa 09:00-13:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Научная библиотека ТГПУ (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "70 плюс — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "70 плюс — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Почтовое отделение №61 — работает (Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шок — работает (Mo-Sa 09:00-20:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стома — работает (Mo-Fr 08:30-20:00; Sa 10:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стома — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вита — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эликсир — работает (Mo-Fr 08:30-20:30; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирские блины — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирские блины — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Барин — работает (Mo-Th 18:00-03:00, Fr-Su 18:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Катрин — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №50 — работает (Mo-Fr 08:00-22:00; Sa,Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почтовое отделение №50 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Люкс — работает (Mo-Sa 10:00-20:00; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "МТС Банк — работает (Mo-Fr 09:00-20:00;Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пицце-Рио — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пармезан — работает (Mo-Su 07:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фантазия — работает (Mo-Sa 10:00-20:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Родильный дом №3 — работает (Mo-Fr 08:00-20:00; Sa 09:00-13:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Замена масла — работает (Mo-Fr 09:00-19:00; Sa 10:00-16:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека 70 плюс — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Fr 07:30-19:00; Sa-Su 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "G7 — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "G7 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Дента — работает (Mo-Fr 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "МТС — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария Ра — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария Ра — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Бамбук — работает (Mo-Su 12:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Photo safari centre — работает (Mo-Sa 10:00-20:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вегетарианское кафе Радхика — работает (Mo-Sa 9:00-21:00; Su 9:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирские блины — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Я+ аптека — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Я+ аптека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирский паб — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Желток — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сладкоежка — работает (08:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сладкоежка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Антонов Двор — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Харди Гарди — работает (Mo-Su 12:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Maya Pizza — работает (Su-Th 11:00-23:00; Fr,Sa 11:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Roccobar — работает (Mo-We 12:00-00:00; Th-Fr 12:00-06:00; Sa 17:00-06:00; Su 17:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Купец — работает (Mo-Su 12:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аларм — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "18+ — работает (Mo-Fr 11:00-19:00; Sa-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Pine Ridge — работает (Mo-Fr 11:00-24:00; Sa,Su 00:00-02:00,11:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Pine Ridge — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Абрикос — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Река 827 — работает (Fr-Sa 12:00-01:00; Su-Th 12:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Канцелярский мир — работает (Mo-Fr 09:00-20:00; Sa 10:00-19:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Европа — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Детская музыкальная школа №2 — работает (Mo-Sa 08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Служба ремонта электроплит — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ГОСТ — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Наряжаться красиво — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Строманта — работает (Mo-Fr 08:00-20:00; Sa 09:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кафе Bufe — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бон-кафе — работает (Mo-Fr 09:00-18:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Каприз — работает (Mo-Fr 10:00-20:00; Sa,Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Панда, семейный ресторан — работает (Su-Th 10:00-23:00, Fr-Sa 10:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ветеринарная клиника \"Томвет\" — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ветеринарная клиника \"Томвет\" — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Евродент — работает (Mo-Fr 08:00-20:00; Sa 09:00-15:00; Su 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сан-туризм — работает (Mo-Fr 10:00-20:00; Sa 12:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека №2 — работает (Mo-Fr 08:00-20:00; Sa 10:00-19:00; Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Hair Chic — работает (Mo,We,Fr 10:00-20:00; Sa 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Hair Chic — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "С.П.С.-АВИА — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кафетериус — работает (Mo-Fr 08:00-21:00; Sa-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Детская городская больница N 2 поликлиника № 5 — работает (Mo-Fr 07:30-18:00; Sa 09:00-18:00; Su 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Harat's — работает (Mo-Su 12:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колесо-Т — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пралине — работает (Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Строганина бар — работает (Su-Th 12:00-23:00; Fr-Sa 12:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инна Тур — работает (Mo-Fr 10:00-18:30; Sa 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сувениры о Томске — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Петруshka — работает (08:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Public Бар — работает (Su-Th 12:00-01:00, Fr,Sa 12:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Про Крафт — работает (Su-Th 12:00-24:00; Fr,Sa 00:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "By Hall — работает (Mo-Fr 15:00-24:00; Sa-Su 15:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Укромное местечко — работает (09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Столовая ТУСУР — работает (10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пеки, Лола! — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Счастьесть — работает (Su-Th 09:00-22:00; Fr-Sa 09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Подсолнух — работает (Mo-Fr 07:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Столовая — работает (Mo-Fr 11:30-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Хмельнофф — работает (11:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — работает (07:30-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Постелька — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Постелька — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Экспресс — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сабрина — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "АвтоЗона — работает (09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Нанохим — работает (09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дирекция студгородка ТГАСУ — работает (09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инженер центр, ООО — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "NewTek-Новые Технологии — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ФАРТУК — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дыхание вока — работает (11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дыхание вока — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Doner Master — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Doner Master — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ферганская кухня — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "33 пингвина — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Make Love Pizza — работает (Su-Th 10:00-23:00; Fr,Sa 10:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "220 Вольт — работает (Mo-Fr 09:00-19:00; Sa 10:00-18:00; Su 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Еврочехол — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 07:30-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 07:30-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СФТИ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "The burger lab — работает (Fr-Sa 11:00-00:00; Mo-Th,Su 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "33 пингвина — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Южане — работает (Su-Th 12:00-22:00; Fr,Sa 12:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Альфа-Банк — работает (Mo-Fr 10:00-19:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "М.Видео — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кофе муз — работает (Mo-Fr 08:00-23:00;Sa 10:00-24:00;Su 10:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Rebro — работает (Su-Th 12:00-23:00; Fr,Sa 12:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колесо.ру — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Belwest — работает (Mo-Fr 10:00-20:00;Sa-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колобок.ru — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Колобок.ru — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Baba roma — работает (Mo-Fr 08:00-21:00; Sa,Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая социальная аптека — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Совкомбанк — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00; Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ascania — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Marmalato — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — работает (07:30-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "DNS — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fix Price — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Безумно. Крутая шаурма — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Безумно. Крутая шаурма — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Магнит Косметик — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит Косметик — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Народная оптика — работает (Mo-Fr 10:00-19:00; Sa,Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Есть IT-CUBE.TOMSK (community_centre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Кошёлка — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чемодан Pro — работает (Mo-Sa 10:00-19:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Quick Step — работает (Mo-Sa 10:00-19:00;Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "DHL — работает (Mo-Fr 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Премьера — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ренессанс Кредит — работает (Mo-Fr 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Gloria Jeans — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 09:00-20:00;Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 09:00-21:00;Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СДЭК — работает (Mo-Fr 10:00-20:00;Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Уличное пианино в Городском саду — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Spar — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Антрекот — работает (Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Baba Roma — работает (Mo-Fr 08:00-21:00; Sa-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Додо Пицца — работает (Mo-Su 09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Про кофе — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Флора Маркет — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирские блины — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Jaws spot — работает (Su-Th 15:00-01:00; Fr-Sa 15:00-03:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пятёрочка — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Винил-Томск — работает (Mo-Fr 09:00-19:00; Sa 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Гости — работает (Fr-Sa 08:00-23:00; Su-Th 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Прованс — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибавтоматика+ — работает (Mo-Fr 09:00-18:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (Mo-Su 07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Томский фтизиопульмонологический медицинский центр — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Магистраль авто — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ярче! — работает (07:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Губернская аптека — работает (Mo-Sa 08:00-21:00; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Губернская аптека — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Альфа Стоматология — работает (Mo-Sa 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рими — работает (Mo-Fr 10:00-19:00;Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дворец обручальных колец — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Промсвязьбанк — работает (Mo-Fr 09:30-18:30; Sa 10:00-16:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мария-Ра — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Barbie Studio — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Абрикос — работает (Mo-Su 08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Fr 07:30-18:00; Sa 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инвитро — работает (Mo-Fr 07:30-19:00; Sa-Su 07:30-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Voxel — работает (Mo-Fr 09:00-20:00; Sa 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Совкомбанк — работает (Mo-Fr 09:00-20:00; Sa 10:00-17:00; Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Совкомбанк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Волховец — работает (Mo-Fr 10:00-20:00;Sa 10:00-19:00;Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ROUND — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "33 пингвина — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 07:30-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coffee Like — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Икорная лавка — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Комбинат Спецобслуживания — работает (Mo-Fr 08:00-17:00; Sa-Su 09:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Клиника Недзельского — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Едет кофе — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Родные масла — работает (Mo-Sa 09:00-20:00, Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "İstanbul — работает (Mo-Su 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Velvet — работает (Mo-Fr 07:00-24:00; Sa-Su 08:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Radiance — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Техномикс — работает (Mo-Fr 09:00-18:00; Sa 11:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Феникс — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Costanova — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Максуда — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Теремок — работает (Mo-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Love me — работает (Mo-Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Антрекот — работает (Fr-Sa 10:00-01:00; Mo-Th,Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Apteka.ru — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сникер — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Таймберри — работает (Mo-Sa 11:00-20:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Чисто-Тайм — работает (Mo,Sa 11:00-17:00; Tu-Fr 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Craft studio — работает (Mo-Fr 10:30-19:30; Sa 12:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Русский фейерверк — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sebastian — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Акрополь — работает (Mo-Fr 09:00-18:00; Sa-Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Доча Маркет — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Lingua друзья — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Панорама-Декор — работает (Mo-Fr 10:00-19:00; Sa 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первая ветеринарная клиника — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Паросигара — работает (Mo-Sa 10:00-22:00; Su 12:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "E.mi — работает (Mo-Fr 09:30-18:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nevada — работает (Mo-Sa 10:00-20:00; Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мамина пицца — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Косметология доктора Добрели — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Martin bester — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Martin bester — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Катод — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Хороший день — работает (Mo-Fr 10:00-20:00; Sa 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Партнер — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Блюменфрау — работает (Mo-Sa 10:00-19:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Виват — работает (Mo-Sa 10:00-20:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Двери на 905 — работает (Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Галерея обоев — работает (Mo-Sa 10:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бестгрум — работает (Tu-Sa 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лавли — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ревиталь — работает (Mo-Sa 09:00-21:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стиль и текстиль — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Инжир — работает (Mo-Su 12:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Канарейка — работает (Mo-Su 20:00-07:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Русдверь — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бинар — работает (Mo-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Lba market — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Студия завивки волос Татьяны Телембовской — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Путешественник — работает (Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Путешественник — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Modern — работает (Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Кросспарк — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Papa Smoke — работает (Mo-Su 09:45-22:15)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sweet nail studio — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Woodmax — работает (Mo-Sa 10:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Manicurnia — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мирт — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бест Стом — работает (Mo-Fr 09:00-20:00; Sa 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Гермес — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "On nails — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Mehico brand — работает (Mo-Su 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nekrasova — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Lashbrowart — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Айстория — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Айстория — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Barber Crew — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Авангард — работает (Mo-Fr 09:00-20:00; Sa 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автотех — работает (Mo-Fr 10:00-18:00; Sa 10:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Азалия — работает (Mo-Su 09:00-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Detailing&PLёnka — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Dok — работает (Mo-Fr 09:00-19:00; Sa 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Космодент — работает (Mo-Sa 08:30-21:00; Su 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Универсал-шина — работает (Mo-Fr 09:00-19:00; Sa-Su 09:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стиль и визаж — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Заводила — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Laserpro — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рубе студио — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Белорусски и российский трикотаж — работает (Mo-Sa 10:00-20:00; Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Белорусски и российский трикотаж — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вторчермет — работает (Mo-Fr 08:00-12:00,13:00-17:00; Sa 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стекло и зеркала — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Невада — работает (Mo-Fr 09:30-19:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Арсенал — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Алло папа — работает (Mo-Fr 09:30-20:00; Sa-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Inzibe — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Fitness Formula — работает (Mo-Sa 10:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Школа цифровых технологий — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Левобережный — работает (Mo-Fr 09:00-19:00; Sa 09:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Baba Roma — работает (Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирское здоровье — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Л'Этуаль — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ЛофтШоп — работает (Mo-Su 12:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Avto Lion — работает (Tu-Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фарсиданни — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Панорама — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Галерея — работает (Fr-Sa 12:00-02:00; Mo-Th,Su 12:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Радужка — работает (Mo-Su 08:30-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Торта — работает (Mo-Fr 08:00-21:00; Sa-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Торта — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Стоматология — работает (Mo-Fr 08:30-20:00; Sa 08:30-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Nova — работает (Mo-Th 12:00-00:00, Fr-Sa 10:00-02:00, Su 10:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "То самое платье — работает (Mo-Su 12:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Айпрофикс — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Tommy giftshop — работает (Mo-Sa 12:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Открытая лаборатория — работает (Mo-Fr 08:00-16:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Milanta — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мальтезе — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Про ноги — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Алиса — работает (Mo-Fr 07:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Свадебный мир — работает (Mo-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Наутилус — работает (Mo-Fr 10:00-19:00; Sa 11:00-18:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Варикоза нет — работает (Mo-Su 08:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Двери Томск — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Notorious — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ворота Сервис — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибхимторг-Т — работает (Mo-Fr 09:00-17:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Beauty technology — работает (Mo-Fr 10:00-20:00; Sa 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Mills_Beauty — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Графт тур — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Суши-кит — работает (Fr-Sa 10:00-23:00; Mo-Th,Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Легкость Кашемира — работает (Mo-Su 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Арт-холидей — работает (Mo-Sa 09:00-21:00; Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СтройМеталлгрупп — работает (Mo-Fr 08:00-12:00,13:00-17:00; Sa 09:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аллигатор — работает (Mo-Su 08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Додо Пицца — работает (09:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Додо Пицца — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Маленькая мама — работает (Mo-Fr 09:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Снегири — работает (Mo-Fr 12:00-24:00; Sa-Su 10:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Элис — работает (11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Trives — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мой доктор — работает (Mo-Fr 09:00-21:00; Sa-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "585 Золотой — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Торта — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "NL International — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ситилаб — работает (Mo-Fr 07:00-18:00; Sa 08:00-14:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ситилаб — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вега — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека плюс — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека плюс — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Авито — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Семейный — работает (08:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Семейный — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ремонт обуви — работает (Mo-Sa 10:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ремонт обуви — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Дары природы — работает (09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рыбная тема — работает (09:00-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Рыбная тема — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Грузинская пекарня — работает (08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Грузинская пекарня — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Хлеббери — работает (08:00-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Хлеббери — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Бухара — работает (Mo-Sa 09:00-21:00; Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бухара — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Кинцуги — работает (Mo-Su 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Два кота — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Славянский базаръ — работает (Mo-Su 12:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мелодия — работает (Fr-Sa 20:00-06:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Катод — работает (Mo-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мысли — работает (Fr-Sa 12:00-03:00; Mo-Th,Su 12:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Mozaica — работает (Fr-Sa 15:00-06:00; Mo-Th,Su 15:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Грузия и Вино — работает (Fr-Sa 11:00-01:00; Mo-Th,Su 11:00-00:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "In Doorses — работает (Sa 11:00-18:00; Tu-Fr 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Миамото — работает (Mo-Fr 10:00-19:00; Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Tresor — работает (Mo-Su 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Olivka — работает (Fr-Sa 18:00-04:00; Mo-Th,Su 18:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Монумент — работает (Tu-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Libreria di tessuti — работает (Mo-Fr 10:00-19:00; Sa-Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Безумно. Шаурма — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магазин Алтайских товаров — работает (Mo-Su 08:30-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Uzhe Vyhozhu — работает (Mo-Sa 12:00-20:00; Su 12:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эстетик — работает (Mo-Sa 09:00-21:00; Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sestra — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Панда — работает (Mo-Su 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первый Робот — работает (Mo-Su 09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "СтройНефтеГаз — работает (Fr 08:00-12:30,13:15-16:00; Mo 09:00-12:30,13:15-17:00; Tu-Th 08:00-12:30,13:15-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Маэстро — работает (Mo-Fr 10:00-19:00; Sa 11:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красивый Дом — работает (Mo-Fr 09:00-19:00; Sa-Su 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Coral Travel — работает (Mo-Fr 10:00-19:00; Sa 12:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "OldBoy — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Pandora — работает (Mo-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фаворит — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ЭпплТомск — работает (Mo-Su 10:30-19:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Хоттур — работает (Mo-Fr 10:00-20:00; Sa 11:00-17:00; Su 11:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Социальная похоронная служба — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Социальная похоронная служба — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Суши Джет — работает (Mo-Su 10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Идеале — работает (Mo-Sa 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центр перинатального здоровья — работает (Mo-Fr 08:00-20:00; Sa 08:00-14:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Крепость — работает (Mo-Fr 09:00-12:00,13:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Beauty Today — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сувенирный дворик — работает (10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сувенирный дворик — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Beauty kitchen — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Голливуд — работает (Mo-Fr 08:30-20:00; Sa 09:00-18:00; Su 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Двери на Ленина — работает (Sa-Su 11:00-19:00; Tu-Fr 11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Demokrat — работает (Mo-Sa 09:00-20:00; Su 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Стандарт — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Марушель — работает (Mo-Su 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Epilia — работает (Mo-Su 10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автоматические Воротные Системы — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ом Декор — работает (Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ом Декор — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Flora Contora — работает (Mo-Su 08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Dimanche Lingerie — работает (Mo-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магия Улыбки — работает (Mo-Fr 09:00-20:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Детский мир — работает (11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Иль Де Ботэ — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Промсвязьбанк — работает (Mo-Fr 09:30-18:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эгоист.ка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Межениновская птицефабрика — работает (Mo-Sa 09:00-20:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Межениновская птицефабрика — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Доктор хвост — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Доктор хвост — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Flora Market — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Klaus Cafe — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Klaus Cafe — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Конфетка — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ДвухКолесов — работает (Mo-Su 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "45 Градусов Мебель — работает (Mo-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Birdy — работает (Mo-Su 12:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фабрика — работает (Fr-Sa 14:00-02:00; Mo-Th,Su 14:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Альфа-Банк — работает (Mo-Th 09:00-18:00; Fr 09:00-16:45)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мир аккумуляторов — работает (Mo-Sa 09:00-18:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бристоль — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бристоль — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Карандаш — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пивград — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пирога — работает (08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пирога — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Классика стиль — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Буланже — работает (10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Буланже — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "По градусам — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дом насосов — работает (Mo-Fr 09:00-18:00; Sa 10:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дом насосов — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Водяной — работает (Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Водяной — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Диксон — работает (Mo-Sa 11:00-19:00; Su 11:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Диксон — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Бристоль — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аян — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аян — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Магнит — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вкусно — работает (08:30-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вкусно — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Есть повод — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть повод — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Твой мастер — работает (Tu-Sa 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Твой мастер — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красный кролик — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красный кролик — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Фармакопейка — работает (Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Массажный салон N1 — работает (Mo-Sa 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Массажный салон N1 — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Иtaly — работает (Su-Th 12:00-22:00; Fr-Sa 12:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дента Смайл — работает (Mo-Sa 09:00-20:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Дента Смайл — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Плавали знаем — работает (Mo-Fr 10:00-19:00; Sa 11:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Плавали знаем — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Крепёж — работает (Mo-Fr 09:00-18:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Крепёж — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Вега — работает (Mo-Sa 09:00-20:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Вега — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Chicko — работает (Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Chicko — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Choplin — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Эскимос — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Эскимос — работает (11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эскимос — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Boxberry — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Обувь Европы — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Дуэт — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Азалия — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Sokolov — работает (Mo-Su 10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (09:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Pegas touristik — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Убойная Фобойная — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит косметик — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит косметик — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Летоклиник — работает (Mo-Fr 08:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сэнсэй — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Grafika — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека Плюс — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека Плюс — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сибирский цирюльник — работает (09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сибирский цирюльник — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Магнит — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Почта Банк — работает (Mo-Fr 09:00-19:00; Sa 10:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Почта Банк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Первый цветочный — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Первый цветочный — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:30-18:30; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Хлебико — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Алоэ — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ПМО Стандарт — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эскимос — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "МдРегион — работает (Mo-Fr 10:00-18:00; Sa 10:00-16:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Anex — работает (Mo-Fr 10:00-20:00; Sa 11:00-18:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Anex — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Pac Group — работает (Mo-Fr 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Лека — работает (08:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Фактура — работает (Mo-Fr 10:00-20:00; Sa 11:00-18:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "18+ — работает (11:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "18+ — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Тамнушки — работает (08:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Я и ты — работает (10:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Бристоль — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Успех — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — работает (08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магнит — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Meat & tap — работает (Mo-Th,Su 12:00-24:00; Fr-Sa 12:00-02:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Meat & tap — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Anex tour — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Friday — работает (11:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "100 решений — работает (Mo-Fr 09:00-18:00; Sa-Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "100 решений — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Белая роза — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Harucha — работает (10:00-23:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Джон Голт — работает (Su-Th 12:00-02:00; Fr-Sa 12:00-04:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Wildberries — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Skin Expert — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мясницкий — работает (Mo-Th,Sa-Su 09:00-20:00; Fr 09:00-20:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Мясницкий — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Есть Библиотека ТУСУР (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Библиотека ТУСУР — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Top — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эконом — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Эконом — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Re:Premium — работает (Mo-Su 11:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Пряности и радости — работает (Fr,Sa 12:00-02:00, Su-Th 12:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Библиотека им. С. Я. Маршака — работает (Mo-Sa 11:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Библиотека им. С. Я. Маршака (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Театр драмы — работает (Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Театр драмы (theatre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Есть Большой концертный зал (theatre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Большой концертный зал — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Храм Святого Александра Невского — работает (Mo-Sa 08:00-20:00; Su 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Поликлиника № 2 — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Стоматологическая поликлиника №1 — работает (Mo-Fr 07:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Театр юного зрителя — работает (Mo-Su 10:00-19:30)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Театр юного зрителя (theatre)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Томичка — работает (12:00-01:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томичка — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Томский колледж культуры и искусства — работает (Mo-Sa 09:00-12:00,13:30-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Томский колледж культуры и искусства — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Томский колледж культуры и искусства — работает (Mo-Sa 09:00-12:00,13:30-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Библиотека имени Пушкина — работает (Tu-Fr 10:00-20:00; Sa-Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Библиотека имени Пушкина (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Диализный центр — работает (Mo-Sa 06:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Наша Гавань, дом детей и юношества — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Центральный рынок — работает (Tu-Su 08:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "магазин разливного пива \"Чехия\" и кафе-кондитерская — работает (Mo-Th,Su 10:00-23:00; Fr-Sa 10:00-24:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "магазин разливного пива \"Чехия\" и кафе-кондитерская — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Томская областная детско-юношеская библиотека — работает (Mo-Fr 10:00-19:00; Su 10:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Томская областная детско-юношеская библиотека (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Родильный дом им. Н. А. Семашко — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Есть Истоки (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Областной ветеринарный центр — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — работает (Mo-Fr 09:00-18:30; Sa 10:00-15:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Сбербанк — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Детский сад №133 — работает (Mo-Fr 07:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ShaurDönar's — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Много магазинов (29)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Отличный транспорт (43)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Парки (24)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Площадки (33)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Медицина (28)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Школы (13), садики (8)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Кафе (93)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Развитый район",
+      "rating": 5,
+      "source": "infra"
+    }
+  ],
+  "Советский": [
+    {
+      "text": "Спар — работает (Mo-Su 08:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аллигатор — работает (Mo-Sa 09:00-20:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Есть Академическая (library)",
+      "rating": 4,
+      "source": "osm_positive"
+    },
+    {
+      "text": "Институт физики прочности и материаловедения СО РАН — работает (Mo-Fr 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Золушка — работает (10:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Родные масла — работает (Mo-Sa 09:00-20:00, Su 10:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автогаз — работает (Mo-Fr 09:00-18:00; Sa 10:00-17:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Балтийский — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — работает (09:00-22:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ярче! — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Красное&Белое — работает (10:00-22:05)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Красное&Белое — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Мия — работает (Mo-Sa 11:00-20:00; Su 11:00-15:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — работает (10:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Wildberries — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Правильный градус — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Правильный градус — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Балтийский — работает (Mo-Sa 09:00-18:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Шанс плюс — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ИАК комплект — работает (Mo-Fr 09:00-18:00; Sa 11:00-15:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "ИАК комплект — доступен",
+      "rating": 5,
+      "source": "osm_access"
+    },
+    {
+      "text": "Парикмахерская — работает (Mo,We-Su 11:00-19:00; Tu off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Парикмахерская — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Европейская фурнитура — работает (Mo-Fr 09:00-18:00; Sa 10:00-17:00; Su off)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека — работает (09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Аптека — недоступен",
+      "rating": 2,
+      "source": "osm_access"
+    },
+    {
+      "text": "Школа плавания Кроль — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "STO_V_Tomske — работает (Mo-Sa 10:00-21:00; Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Ozon — работает (Mo-Su 09:00-21:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автотрейд — работает (Mo-Sa 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Автотрейд — работает (Mo-Sa 09:00-19:00)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Роснефть — работает (24/7)",
+      "rating": 4,
+      "source": "osm_active"
+    },
+    {
+      "text": "Магазинов достаточно (5)",
+      "rating": 4,
+      "source": "infra"
+    },
+    {
+      "text": "Отличный транспорт (15)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Парки (3)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Площадки (9)",
+      "rating": 5,
+      "source": "infra"
+    },
+    {
+      "text": "Есть поликлиника",
+      "rating": 4,
+      "source": "infra"
+    }
+  ],
+  "Октябрьский": [
+    {
+      "text": "Магазинов нет",
+      "rating": 1,
+      "source": "infra"
+    },
+    {
+      "text": "Плохой транспорт",
+      "rating": 1,
+      "source": "infra"
+    },
+    {
+      "text": "Парков нет",
+      "rating": 2,
+      "source": "infra"
+    },
+    {
+      "text": "Площадок нет",
+      "rating": 1,
+      "source": "infra"
+    },
+    {
+      "text": "Нет поликлиники",
+      "rating": 2,
+      "source": "infra"
+    },
+    {
+      "text": "Аптек нет",
+      "rating": 1,
+      "source": "infra"
+    },
+    {
+      "text": "Нет школ/садиков",
+      "rating": 1,
+      "source": "infra"
+    },
+    {
+      "text": "Кафе нет",
+      "rating": 2,
+      "source": "infra"
+    },
+    {
+      "text": "Слабая инфраструктура",
+      "rating": 2,
+      "source": "infra"
+    }
+  ]
+}

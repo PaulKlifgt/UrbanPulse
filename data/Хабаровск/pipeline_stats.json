@@ -1,0 +1,24 @@
+{
+  "city": "Хабаровск",
+  "zones": 5,
+  "sources": {
+    "preset": 5
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 17
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 93.2,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:45:03"
+}

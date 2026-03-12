@@ -1,0 +1,24 @@
+{
+  "city": "Краснодар",
+  "zones": 4,
+  "sources": {
+    "preset": 4
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 14
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 78.9,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:33:40"
+}

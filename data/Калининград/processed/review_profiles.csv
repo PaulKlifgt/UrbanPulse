@@ -1,0 +1,4 @@
+district,review_count,avg_rating,avg_sentiment,positive_share,negative_share,top_problem_1,top_problem_2,top_problem_3
+Ленинградский,170,4.05,0.979,0.959,0.0,ЖКХ,Медицина,Магазины
+Московский,74,4.05,0.959,0.919,0.0,ЖКХ,Магазины,Медицина
+Центральный,13,3.31,0.692,0.462,0.077,ЖКХ,Магазины,Транспорт

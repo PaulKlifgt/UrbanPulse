@@ -1,0 +1,25 @@
+{
+  "city": "Барнаул",
+  "zones": 5,
+  "sources": {
+    "preset": 3,
+    "preset_missing": 2
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 23
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 103.5,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:41:27"
+}

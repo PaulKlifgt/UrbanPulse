@@ -1,0 +1,1564 @@
+{
+  "jsonQuery": {
+    "_type": "flatsale",
+    "engine_version": {
+      "type": "term",
+      "value": 2
+    },
+    "region": {
+      "type": "terms",
+      "value": [
+        4777
+      ]
+    }
+  },
+  "queryString": "deal_type=sale&engine_version=2&offer_type=flat&region=4777",
+  "nonGeoQueryString": "deal_type=sale&engine_version=2&offer_type=flat",
+  "extendedJsonQuery": {
+    "_type": "flatsale",
+    "engine_version": {
+      "type": "term",
+      "value": 2
+    }
+  },
+  "extendedQueryString": "deal_type=sale&engine_version=2&offer_type=flat",
+  "isNewobject": false,
+  "newbuildingsPolygons": [
+    {
+      "newbuildingId": 6547,
+      "coordinates": [
+        [
+          55.786310939499195,
+          49.13055701223372
+        ],
+        [
+          55.78593914104669,
+          49.130042028102885
+        ],
+        [
+          55.78583938963211,
+          49.129910599861134
+        ],
+        [
+          55.78535876560955,
+          49.130133223209384
+        ],
+        [
+          55.78528924088552,
+          49.130219053897854
+        ],
+        [
+          55.78559152138749,
+          49.13145823446274
+        ],
+        [
+          55.78565197720525,
+          49.13144214120864
+        ],
+        [
+          55.7859754142236,
+          49.13135094610211
+        ],
+        [
+          55.78609330181438,
+          49.131050538692485
+        ],
+        [
+          55.786310939499195,
+          49.13055701223372
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 7840,
+      "coordinates": [
+        [
+          55.78370243555064,
+          49.115430492064654
+        ],
+        [
+          55.78343036995742,
+          49.11511399140089
+        ],
+        [
+          55.78315830245634,
+          49.11546804299086
+        ],
+        [
+          55.78348478322871,
+          49.11592938294144
+        ],
+        [
+          55.78370243555064,
+          49.115430492064654
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 8497,
+      "coordinates": [
+        [
+          55.78942859178537,
+          49.12537729729656
+        ],
+        [
+          55.789029620491526,
+          49.125361204042484
+        ],
+        [
+          55.7890114853352,
+          49.12575817097669
+        ],
+        [
+          55.78882711076469,
+          49.12576889981274
+        ],
+        [
+          55.78881502059829,
+          49.126691579713864
+        ],
+        [
+          55.789401389327494,
+          49.12677204598431
+        ],
+        [
+          55.78942859178537,
+          49.12537729729656
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 8516,
+      "coordinates": [
+        [
+          55.79381792416401,
+          49.118512935194715
+        ],
+        [
+          55.793561040374286,
+          49.118150836977655
+        ],
+        [
+          55.79327091075391,
+          49.117794103178696
+        ],
+        [
+          55.79293544568111,
+          49.11855048612093
+        ],
+        [
+          55.79352175212157,
+          49.11926931813692
+        ],
+        [
+          55.79381792416401,
+          49.118512935194715
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 48761,
+      "coordinates": [
+        [
+          55.78683114592359,
+          49.11268725991041
+        ],
+        [
+          55.786616533867694,
+          49.112368077037736
+        ],
+        [
+          55.78470764339493,
+          49.115533083675224
+        ],
+        [
+          55.78509456781599,
+          49.115978330371696
+        ],
+        [
+          55.78533340454931,
+          49.115530283219265
+        ],
+        [
+          55.785245759731374,
+          49.11519824410052
+        ],
+        [
+          55.78606790751079,
+          49.11384597420478
+        ],
+        [
+          55.786205442670656,
+          49.11409273743414
+        ],
+        [
+          55.786761623838444,
+          49.113221019504266
+        ],
+        [
+          55.78668454485894,
+          49.11296084522986
+        ],
+        [
+          55.78683114592359,
+          49.11268725991041
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 4658402,
+      "coordinates": [
+        [
+          55.78632808715505,
+          49.12924941565352
+        ],
+        [
+          55.78616485907572,
+          49.129270873325645
+        ],
+        [
+          55.78605603997458,
+          49.128788075702964
+        ],
+        [
+          55.78599860754815,
+          49.12829991366226
+        ],
+        [
+          55.78606208548822,
+          49.12779565836745
+        ],
+        [
+          55.785913970133166,
+          49.127409420269316
+        ],
+        [
+          55.785956288863744,
+          49.12729140307266
+        ],
+        [
+          55.78592606120375,
+          49.127114377277664
+        ],
+        [
+          55.78583537808249,
+          49.127023182171165
+        ],
+        [
+          55.78455370063225,
+          49.12971612002212
+        ],
+        [
+          55.78466856967831,
+          49.12986632372696
+        ],
+        [
+          55.784946672276064,
+          49.12969466234998
+        ],
+        [
+          55.78512804246141,
+          49.12978585745651
+        ],
+        [
+          55.78532150305787,
+          49.13005944277601
+        ],
+        [
+          55.78551496268958,
+          49.129936061161324
+        ],
+        [
+          55.78582630975868,
+          49.12983413721877
+        ],
+        [
+          55.785923038436465,
+          49.12986095930891
+        ],
+        [
+          55.786161836327025,
+          49.129705391186064
+        ],
+        [
+          55.78626158690933,
+          49.12976439978438
+        ],
+        [
+          55.786379473630475,
+          49.129463992374724
+        ],
+        [
+          55.78632808715505,
+          49.12924941565352
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 4905305,
+      "coordinates": [
+        [
+          55.784052045784186,
+          49.13027928624805
+        ],
+        [
+          55.78433317569913,
+          49.12961409841239
+        ],
+        [
+          55.784039954135835,
+          49.12908302102745
+        ],
+        [
+          55.78377091384472,
+          49.129549725396046
+        ],
+        [
+          55.783858578863594,
+          49.12971065793694
+        ],
+        [
+          55.783767890909495,
+          49.12989841256797
+        ],
+        [
+          55.784052045784186,
+          49.13027928624805
+        ]
+      ]
+    },
+    {
+      "newbuildingId": 5504776,
+      "coordinates": [
+        [
+          55.787773896648815,
+          49.11495835358406
+        ],
+        [
+          55.78787500692053,
+          49.11512770043813
+        ],
+        [
+          55.788020092184325,
+          49.11485143290952
+        ],
+        [
+          55.788138268524825,
+          49.11502504112332
+        ],
+        [
+          55.78818965259612,
+          49.11493116380775
+        ],
+        [
+          55.788259172122125,
+          49.11502772333233
+        ],
+        [
+          55.788346827005476,
+          49.114826557656215
+        ],
+        [
+          55.78804759057482,
+          49.114440319558064
+        ],
+        [
+          55.787773896648815,
+          49.11495835358406
+        ]
+      ]
+    }
+  ],
+  "bbox": {
+    "topLeft": {
+      "lat": 55.79459750603953,
+      "lng": 49.108886718750014
+    },
+    "bottomRight": {
+      "lat": 55.782217043718944,
+      "lng": 49.130859375
+    }
+  },
+  "precision": 9,
+  "extended": [],
+  "filtered": [
+    {
+      "coordinates": {
+        "lat": 55.78580881934613,
+        "lng": 49.127918081358075
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.785809,
+          "lng": 49.127918
+        },
+        "bottomRight": {
+          "lat": 55.785808,
+          "lng": 49.127919
+        }
+      },
+      "geohash": "v1fvmgmzg",
+      "count": 63,
+      "minPrice": 24804183.0,
+      "maxPrice": 68167723.0,
+      "hasNewobject": true,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        303079720,
+        303079726,
+        303079845,
+        303079846,
+        303079864,
+        303079865,
+        303079872,
+        303079906,
+        303079917,
+        303079921,
+        303079929,
+        312864847,
+        318327151,
+        318327152,
+        318327153,
+        318327156,
+        318327157,
+        318327159,
+        318859924,
+        318859927,
+        318859928,
+        318859929,
+        318859930,
+        318859932,
+        318859933,
+        318859934,
+        318859936,
+        318859937,
+        318859938,
+        318859940,
+        318859941,
+        318859942,
+        318859943,
+        318859945,
+        318859947,
+        318859948,
+        322730175,
+        322730176,
+        322730177,
+        322730178,
+        322730179,
+        322730180,
+        322730181,
+        322730182,
+        322730183,
+        322730184,
+        322730185,
+        322730186,
+        322730187,
+        322730188,
+        322730189,
+        322730191,
+        322730192,
+        322730193,
+        322730194,
+        322730195,
+        322730196,
+        322730198,
+        322730199,
+        322730200,
+        322730201,
+        322730202,
+        325050541
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": true,
+      "newbuildingPin": {
+        "id": 4658402,
+        "houseId": 9055097,
+        "isAnyFicheringPlus": true
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78402783256024,
+        "lng": 49.12941073067486
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.784028,
+          "lng": 49.12941
+        },
+        "bottomRight": {
+          "lat": 55.784027,
+          "lng": 49.129411
+        }
+      },
+      "geohash": "v1fvmgnvw",
+      "count": 38,
+      "minPrice": 19344581.0,
+      "maxPrice": 46277400.0,
+      "hasNewobject": true,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        304160583,
+        304160591,
+        304160609,
+        304160610,
+        304160629,
+        304160632,
+        304160634,
+        304160640,
+        304160648,
+        304160651,
+        304160653,
+        311079440,
+        314189226,
+        314189228,
+        314189230,
+        314189235,
+        314189238,
+        314189241,
+        314554888,
+        314554891,
+        314554893,
+        314554899,
+        314554902,
+        314554903,
+        314554905,
+        316064553,
+        318953171,
+        321543512,
+        321543517,
+        321543521,
+        321543524,
+        321543528,
+        321543532,
+        321543536,
+        323855510,
+        324157570,
+        324171771,
+        326128775
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": true,
+      "newbuildingPin": {
+        "id": 4905305,
+        "houseId": 9466339,
+        "isAnyFicheringPlus": true
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78810206614435,
+        "lng": 49.11462429910898
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.788103,
+          "lng": 49.114624
+        },
+        "bottomRight": {
+          "lat": 55.788102,
+          "lng": 49.114625
+        }
+      },
+      "geohash": "v1fvmeujj",
+      "count": 16,
+      "minPrice": 18351200.0,
+      "maxPrice": 79344400.0,
+      "hasNewobject": true,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        315245703,
+        315245705,
+        315245706,
+        315245709,
+        315245710,
+        315245714,
+        315245717,
+        315245718,
+        315245719,
+        315245724,
+        315245728,
+        315245730,
+        315245732,
+        315245733,
+        315245736,
+        315338279
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": true,
+      "newbuildingPin": {
+        "id": 5504776,
+        "houseId": 10566094,
+        "isAnyFicheringPlus": true
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.785654969513416,
+        "lng": 49.13078494369984
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.785655,
+          "lng": 49.130784
+        },
+        "bottomRight": {
+          "lat": 55.785654,
+          "lng": 49.130785
+        }
+      },
+      "geohash": "v1fvmgryy",
+      "count": 7,
+      "minPrice": 13970000.0,
+      "maxPrice": 28900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        319640814,
+        321317218,
+        323386907,
+        324397024,
+        325310161,
+        325631836,
+        326370351
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 6547,
+        "houseId": 3113,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79259396996349,
+        "lng": 49.111488964408636
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.792594,
+          "lng": 49.111488
+        },
+        "bottomRight": {
+          "lat": 55.792593,
+          "lng": 49.111489
+        }
+      },
+      "geohash": "v1fvms9zk",
+      "count": 4,
+      "minPrice": 40700000.0,
+      "maxPrice": 54945000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        266553903,
+        303900539,
+        313017275,
+        313017908
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 46243,
+        "houseId": 103591,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.785102979280055,
+        "lng": 49.121172996237874
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.785103,
+          "lng": 49.121172
+        },
+        "bottomRight": {
+          "lat": 55.785102,
+          "lng": 49.121173
+        }
+      },
+      "geohash": "v1fvmg2gy",
+      "count": 4,
+      "minPrice": 11500000.0,
+      "maxPrice": 13900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        323994700,
+        324424137,
+        324645789,
+        326245973
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.794365988112986,
+        "lng": 49.11691498942673
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.794366,
+          "lng": 49.116914
+        },
+        "bottomRight": {
+          "lat": 55.794365,
+          "lng": 49.116915
+        }
+      },
+      "geohash": "v1fvmtjce",
+      "count": 3,
+      "minPrice": 17000000.0,
+      "maxPrice": 17600000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        319977111,
+        323011877,
+        326363338
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78677898272872,
+        "lng": 49.12101197987795
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.786779,
+          "lng": 49.121011
+        },
+        "bottomRight": {
+          "lat": 55.786778,
+          "lng": 49.121012
+        }
+      },
+      "geohash": "v1fvmg8vd",
+      "count": 3,
+      "minPrice": 13000000.0,
+      "maxPrice": 17900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        318751687,
+        326607674,
+        326665480
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.786241996102035,
+        "lng": 49.116923958063126
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.786242,
+          "lng": 49.116923
+        },
+        "bottomRight": {
+          "lat": 55.786241,
+          "lng": 49.116924
+        }
+      },
+      "geohash": "v1fvmetf7",
+      "count": 3,
+      "minPrice": 41000000.0,
+      "maxPrice": 55000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        316284392,
+        316338057,
+        319011493
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78307799529284,
+        "lng": 49.115693997591734
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.783078,
+          "lng": 49.115693
+        },
+        "bottomRight": {
+          "lat": 55.783077,
+          "lng": 49.115694
+        }
+      },
+      "geohash": "v1fvmduzy",
+      "count": 3,
+      "minPrice": 37000000.0,
+      "maxPrice": 51000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        307706046,
+        309949553,
+        323802407
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79158696811646,
+        "lng": 49.12759596481919
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.791587,
+          "lng": 49.127595
+        },
+        "bottomRight": {
+          "lat": 55.791586,
+          "lng": 49.127596
+        }
+      },
+      "geohash": "v1fvmut9e",
+      "count": 2,
+      "minPrice": 47000000.0,
+      "maxPrice": 47000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        324515583,
+        324734677
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.789713989943266,
+        "lng": 49.125754963606596
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.789714,
+          "lng": 49.125754
+        },
+        "bottomRight": {
+          "lat": 55.789713,
+          "lng": 49.125755
+        }
+      },
+      "geohash": "v1fvmuhq9",
+      "count": 2,
+      "minPrice": 19500000.0,
+      "maxPrice": 23698000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        312846999,
+        313016743
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.789066990837455,
+        "lng": 49.11071699112654
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.789067,
+          "lng": 49.110716
+        },
+        "bottomRight": {
+          "lat": 55.789066,
+          "lng": 49.110717
+        }
+      },
+      "geohash": "v1fvms16f",
+      "count": 2,
+      "minPrice": 11900000.0,
+      "maxPrice": 12500000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        320911676,
+        326779519
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.785352382808924,
+        "lng": 49.129162626340985
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.785353,
+          "lng": 49.129162
+        },
+        "bottomRight": {
+          "lat": 55.785352,
+          "lng": 49.129163
+        }
+      },
+      "geohash": "v1fvmgqv0",
+      "count": 2,
+      "minPrice": 21500000.0,
+      "maxPrice": 39622500.0,
+      "hasNewobject": true,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        313439330,
+        320612480
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 4658402,
+        "houseId": 9307858,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78607498668134,
+        "lng": 49.113483941182494
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.786075,
+          "lng": 49.113483
+        },
+        "bottomRight": {
+          "lat": 55.786074,
+          "lng": 49.113484
+        }
+      },
+      "geohash": "v1fvmee37",
+      "count": 2,
+      "minPrice": 49950000.0,
+      "maxPrice": 300000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        313812474,
+        317752583
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 48761,
+        "houseId": 108578,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.788615960627794,
+        "lng": 49.12827892228961
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.788616,
+          "lng": 49.128278
+        },
+        "bottomRight": {
+          "lat": 55.788615,
+          "lng": 49.128279
+        }
+      },
+      "geohash": "v1fvmun05",
+      "count": 1,
+      "minPrice": 30000000.0,
+      "maxPrice": 30000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        320515115
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79028597101569,
+        "lng": 49.126374972984195
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.790286,
+          "lng": 49.126374
+        },
+        "bottomRight": {
+          "lat": 55.790285,
+          "lng": 49.126375
+        }
+      },
+      "geohash": "v1fvmuk9z",
+      "count": 1,
+      "minPrice": 43900000.0,
+      "maxPrice": 43900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326264812
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79011397436261,
+        "lng": 49.12593391723931
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.790114,
+          "lng": 49.125933
+        },
+        "bottomRight": {
+          "lat": 55.790113,
+          "lng": 49.125934
+        }
+      },
+      "geohash": "v1fvmuk2v",
+      "count": 1,
+      "minPrice": 40000000.0,
+      "maxPrice": 40000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        322023657
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78895496670157,
+        "lng": 49.126392994076014
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.788955,
+          "lng": 49.126392
+        },
+        "bottomRight": {
+          "lat": 55.788954,
+          "lng": 49.126393
+        }
+      },
+      "geohash": "v1fvmuhdp",
+      "count": 1,
+      "minPrice": 34900000.0,
+      "maxPrice": 34900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        323708060
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 8497,
+        "houseId": 9052,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.7908129831776,
+        "lng": 49.12498198449612
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.790813,
+          "lng": 49.124981
+        },
+        "bottomRight": {
+          "lat": 55.790812,
+          "lng": 49.124982
+        }
+      },
+      "geohash": "v1fvmu7tp",
+      "count": 1,
+      "minPrice": 17500000.0,
+      "maxPrice": 17500000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326607675
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.794587982818484,
+        "lng": 49.111938988789916
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.794588,
+          "lng": 49.111938
+        },
+        "bottomRight": {
+          "lat": 55.794587,
+          "lng": 49.111939
+        }
+      },
+      "geohash": "v1fvmt45p",
+      "count": 1,
+      "minPrice": 13500000.0,
+      "maxPrice": 13500000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326543660
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79393997788429,
+        "lng": 49.11925094202161
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.79394,
+          "lng": 49.11925
+        },
+        "bottomRight": {
+          "lat": 55.793939,
+          "lng": 49.119251
+        }
+      },
+      "geohash": "v1fvmszx3",
+      "count": 1,
+      "minPrice": 36600000.0,
+      "maxPrice": 36600000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        321185940
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79345495905727,
+        "lng": 49.11828995682299
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.793455,
+          "lng": 49.118289
+        },
+        "bottomRight": {
+          "lat": 55.793454,
+          "lng": 49.11829
+        }
+      },
+      "geohash": "v1fvmsyu7",
+      "count": 1,
+      "minPrice": 31750000.0,
+      "maxPrice": 31750000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326844473
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 8516,
+        "houseId": 9143,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79238697886467,
+        "lng": 49.11197494715452
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.792387,
+          "lng": 49.111974
+        },
+        "bottomRight": {
+          "lat": 55.792386,
+          "lng": 49.111975
+        }
+      },
+      "geohash": "v1fvmsdnp",
+      "count": 1,
+      "minPrice": 36685000.0,
+      "maxPrice": 36685000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        313016487
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.79029095824808,
+        "lng": 49.11332191899419
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.790291,
+          "lng": 49.113321
+        },
+        "bottomRight": {
+          "lat": 55.79029,
+          "lng": 49.113322
+        }
+      },
+      "geohash": "v1fvms74p",
+      "count": 1,
+      "minPrice": 12900000.0,
+      "maxPrice": 12900000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        316682589
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78794297762215,
+        "lng": 49.13017398677766
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.787943,
+          "lng": 49.130173
+        },
+        "bottomRight": {
+          "lat": 55.787942,
+          "lng": 49.130174
+        }
+      },
+      "geohash": "v1fvmgzs2",
+      "count": 1,
+      "minPrice": 25500000.0,
+      "maxPrice": 25500000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        316676426
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78360496554524,
+        "lng": 49.12724593654275
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.783605,
+          "lng": 49.127245
+        },
+        "bottomRight": {
+          "lat": 55.783604,
+          "lng": 49.127246
+        }
+      },
+      "geohash": "v1fvmgj75",
+      "count": 1,
+      "minPrice": 8999999.0,
+      "maxPrice": 8999999.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326358399
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.7860399922356,
+        "lng": 49.11989794112742
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.78604,
+          "lng": 49.119897
+        },
+        "bottomRight": {
+          "lat": 55.786039,
+          "lng": 49.119898
+        }
+      },
+      "geohash": "v1fvmg810",
+      "count": 1,
+      "minPrice": 16800000.0,
+      "maxPrice": 16800000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326361955
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.784869962371886,
+        "lng": 49.124954994767904
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.78487,
+          "lng": 49.124954
+        },
+        "bottomRight": {
+          "lat": 55.784869,
+          "lng": 49.124955
+        }
+      },
+      "geohash": "v1fvmg7dq",
+      "count": 1,
+      "minPrice": 45000000.0,
+      "maxPrice": 45000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326179349
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.788565962575376,
+        "lng": 49.11869396455586
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.788566,
+          "lng": 49.118693
+        },
+        "bottomRight": {
+          "lat": 55.788565,
+          "lng": 49.118694
+        }
+      },
+      "geohash": "v1fvmezpu",
+      "count": 1,
+      "minPrice": 14200000.0,
+      "maxPrice": 14200000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        325111580
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78733596019447,
+        "lng": 49.11562199704349
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.787336,
+          "lng": 49.115621
+        },
+        "bottomRight": {
+          "lat": 55.787335,
+          "lng": 49.115622
+        }
+      },
+      "geohash": "v1fvmeubu",
+      "count": 1,
+      "minPrice": 19600000.0,
+      "maxPrice": 19600000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326370734
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78485495876521,
+        "lng": 49.11601695232093
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.784855,
+          "lng": 49.116016
+        },
+        "bottomRight": {
+          "lat": 55.784854,
+          "lng": 49.116017
+        }
+      },
+      "geohash": "v1fvmem4q",
+      "count": 1,
+      "minPrice": 15000000.0,
+      "maxPrice": 15000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        311763765
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.78344298526645,
+        "lng": 49.11549593321979
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.783443,
+          "lng": 49.115495
+        },
+        "bottomRight": {
+          "lat": 55.783442,
+          "lng": 49.115496
+        }
+      },
+      "geohash": "v1fvmehf4",
+      "count": 1,
+      "minPrice": 55000000.0,
+      "maxPrice": 55000000.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        323475100
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "newbuildingPin": {
+        "id": 7840,
+        "houseId": 6474,
+        "isAnyFicheringPlus": false
+      },
+      "hasDiscountOffers": false
+    },
+    {
+      "coordinates": {
+        "lat": 55.784920966252685,
+        "lng": 49.10965693183243
+      },
+      "bbox": {
+        "topLeft": {
+          "lat": 55.784921,
+          "lng": 49.109656
+        },
+        "bottomRight": {
+          "lat": 55.78492,
+          "lng": 49.109657
+        }
+      },
+      "geohash": "v1fvme2d9",
+      "count": 1,
+      "minPrice": 12999999.0,
+      "maxPrice": 12999999.0,
+      "hasNewobject": false,
+      "favoriteIds": [],
+      "subdomain": "kazan",
+      "clusterOfferIds": [
+        326783456
+      ],
+      "isViewed": false,
+      "isAnyFromDeveloper": false,
+      "hasDiscountOffers": false
+    }
+  ],
+  "offersCount": 15162,
+  "isPromotionTopPulsedGlowEnabled": true,
+  "mlSearchSessionGuid": "5371c5f57c0c58bfbfeeb070a886721b"
+}

@@ -1,0 +1,25 @@
+{
+  "city": "Омск",
+  "zones": 5,
+  "sources": {
+    "preset": 4,
+    "preset_missing": 1
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 23
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 109.5,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:22:08"
+}

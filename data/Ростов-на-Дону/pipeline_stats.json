@@ -1,0 +1,24 @@
+{
+  "city": "Ростов-на-Дону",
+  "zones": 8,
+  "sources": {
+    "preset": 8
+  },
+  "filtered": 0,
+  "api": {
+    "overpass": 26
+  },
+  "errors": {},
+  "cache": 0,
+  "time": 26.3,
+  "ok": [
+    "infrastructure",
+    "ecology",
+    "reviews",
+    "nlp",
+    "index",
+    "ml"
+  ],
+  "fail": [],
+  "ts": "2026-03-12 15:22:34"
+}

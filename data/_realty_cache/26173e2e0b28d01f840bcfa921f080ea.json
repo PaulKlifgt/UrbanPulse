@@ -1,0 +1,98 @@
+[
+  {
+    "source": "cian",
+    "deal_type": "sale",
+    "price": 4500000,
+    "rooms": "2",
+    "area": 42.6,
+    "floor": "5/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, просп.",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904136-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904136-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904133-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815891055-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904137-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904131-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904130-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904124-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904132-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904135-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2815904127-1.jpg"
+    ],
+    "link": "https://www.cian.ru/sale/flat/327252831/",
+    "title": "2-комн., 43 м²"
+  },
+  {
+    "source": "cian",
+    "deal_type": "sale",
+    "price": 17300000,
+    "rooms": "4",
+    "area": 138.8,
+    "floor": "4/8",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Эльмаш, просп. К",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2688437137-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2688437137-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722410510-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722342345-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722406493-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2688435659-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722410514-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722343866-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722410512-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722340649-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-kosmonavtov-prospekt-2722410500-1.jpg"
+    ],
+    "link": "https://www.cian.ru/sale/flat/323553611/",
+    "title": "4-комн., 139 м²"
+  },
+  {
+    "source": "cian",
+    "deal_type": "sale",
+    "price": 3990000,
+    "rooms": "1",
+    "area": 31.3,
+    "floor": "5/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, ул. Поб",
+    "photo": "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560298-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560298-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823559449-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560299-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560290-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560300-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560301-1.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560298-2.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823559449-2.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560299-2.jpg",
+      "https://images.cdn-cian.ru/images/kvartira-ekaterinburg-pobedy-ulica-2823560290-2.jpg"
+    ],
+    "link": "https://www.cian.ru/sale/flat/327574966/",
+    "title": "1-комн., 31 м²"
+  },
+  {
+    "source": "cian",
+    "deal_type": "sale",
+    "price": 5100000,
+    "rooms": "2",
+    "area": 42.9,
+    "floor": "5/5",
+    "address": "Свердловская область, Екатеринбург, р-н Орджоникидзевский, мкр. Уралмаш, ул. Поб",
+    "photo": "https://images.cdn-cian.ru/images/2754991309-1.jpg",
+    "photos": [
+      "https://images.cdn-cian.ru/images/2754991309-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991323-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991333-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991345-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991351-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991376-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991385-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991394-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991402-1.jpg",
+      "https://images.cdn-cian.ru/images/2754991412-1.jpg"
+    ],
+    "link": "https://www.cian.ru/sale/flat/325493772/",
+    "title": "2-комн., 43 м²"
+  }
+]
