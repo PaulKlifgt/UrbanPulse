@@ -61,10 +61,16 @@ header {
 [data-testid="collapsedControl"] {
     display: flex !important;
     visibility: visible !important;
+    position: fixed !important;
+    top: 0.75rem !important;
+    left: 0.75rem !important;
+    z-index: 10000 !important;
+    border-radius: 10px !important;
+    background: rgba(255, 255, 255, 0.92) !important;
+    border: 1px solid #d7dbe2 !important;
 }
 
 /* Hide Streamlit runtime toolbar/status ("Stop / Deploy"). */
-[data-testid="stToolbar"],
 [data-testid="stStatusWidget"],
 [data-testid="stDecoration"] {
     display: none !important;
