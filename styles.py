@@ -594,5 +594,63 @@ html, body, [class*="css"] {
     }
 }
 
+@media (max-width: 900px) {
+    [data-testid="stAppViewContainer"] > .main > div {
+        padding: 0 0.55rem 1rem 0.55rem !important;
+    }
+
+    [data-testid="stSidebar"] {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .up-topbar {
+        padding: 12px 14px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .up-topbar-title {
+        font-size: 1.85rem !important;
+        line-height: 1.05 !important;
+    }
+
+    .up-map-summary {
+        padding: 0.9rem 0.95rem !important;
+    }
+
+    .up-panel-title {
+        font-size: 1.06rem !important;
+    }
+
+    .up-panel-meta {
+        font-size: 0.88rem !important;
+    }
+
+    .up-detail-title {
+        font-size: 1.45rem !important;
+    }
+
+    .up-offers-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .stTabs [data-baseweb="tab-list"] {
+        overflow-x: auto !important;
+        scrollbar-width: thin;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        white-space: nowrap !important;
+    }
+
+    .stFolium iframe {
+        min-height: 420px !important;
+    }
+
+    [data-testid="stDataFrame"] {
+        overflow-x: auto !important;
+    }
+}
+
 </style>
 """

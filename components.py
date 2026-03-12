@@ -794,8 +794,10 @@ def realty_cards(row, city_name):
 {_CAROUSEL_JS}
 </body></html>"""
 
-            n_rows = max(1, (len(page_offers) + 2) // 3)
-            html_comp.html(page, height=n_rows * 310 + 70, scrolling=True)
+            # Mobile-friendly height: use a denser estimate (2 cards per row)
+            # so single-column layouts on phones are less cramped.
+            n_rows = max(1, (len(page_offers) + 1) // 2)
+            html_comp.html(page, height=n_rows * 340 + 90, scrolling=True)
 
 
 def _show_fallback_links(lat, lon, deal_type, name, city_name):
