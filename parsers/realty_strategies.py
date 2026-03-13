@@ -17,7 +17,7 @@ except ImportError:
 from .realty_constants import INTERCEPT_SCRIPT
 from .realty_utils import (
     bbox, clean_address, make_title,
-    detect_cian_region, haversine,
+    detect_cian_region, haversine, make_domclick_url,
 )
 from .realty_offer_parser import (
     cian_api_to_offer, find_offers_recursive,
@@ -383,6 +383,47 @@ def strategy_bbox_search(driver_mgr, lat, lon, deal_type, limit,
             print(f"         bbox r={r:.1f}km ✗: {e}")
             continue
 
+    return []
+
+
+def strategy_domclick_list(driver_mgr, lat, lon, deal_type, limit,
+                           radius_km, city_name="", district_name=""):
+    """Стратегия 5: Selenium-парсинг ДомКлик как fallback при блоке ЦИАН."""
+    driver = driver_mgr.driver
+    if not driver:
+        return []
+
+    print("         📍 Стратегия 5: ДомКлик fallback...")
+    url = make_domclick_url(lat, lon, deal_type=deal_type, radius_km=max(1.2, float(radius_km or 1.2)))
+
+    try:
+        driver.get(url)
+        time.sleep(4)
+
+        # JSON state (если есть в page-level стейте)
+        results = try_json_state(driver, deal_type, limit * 3, "domclick")
+        if not results:
+            # DOM cards
+            results = parse_cards_from_dom(driver, deal_type, limit * 3, "domclick")
+        if not results:
+            # Raw HTML parse
+            results = parse_from_page_source(driver, deal_type, limit * 3, "domclick")
+
+        normalized = []
+        for row in results or []:
+            if not isinstance(row, dict):
+                continue
+            row["source"] = row.get("source", "domclick")
+            row["_city_hint"] = row.get("_city_hint") or str(city_name or "")
+            row["_district_hint"] = row.get("_district_hint") or str(district_name or "")
+            row["address"] = clean_address(row.get("address", ""))
+            normalized.append(row)
+
+        if normalized:
+            print(f"         ✅ ДомКлик: {len(normalized[:limit])} объявлений")
+            return normalized[:limit]
+    except Exception as e:
+        print(f"         ДомКлик ✗: {e}")
     return []
 
 

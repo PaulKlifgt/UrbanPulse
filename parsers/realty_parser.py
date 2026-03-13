@@ -13,6 +13,7 @@ from .realty_strategies import (
     strategy_direct_api,
     strategy_list_page,
     strategy_bbox_search,
+    strategy_domclick_list,
 )
 
 # Реэкспорт утилит для обратной совместимости
@@ -305,6 +306,15 @@ class RealtyParser:
         results = strategy_bbox_search(
             self._driver_mgr, lat, lon, deal_type,
             limit, radius_km, region_id, city_name
+        )
+        if results:
+            return results
+
+        # Стратегия 5: если ЦИАН недоступен из-за капчи/anti-bot на IP сервера,
+        # пробуем Selenium-парсинг ДомКлик.
+        results = strategy_domclick_list(
+            self._driver_mgr, lat, lon, deal_type,
+            limit, radius_km, city_name, district_name
         )
         if results:
             return results
