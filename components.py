@@ -5,6 +5,11 @@ import streamlit.components.v1 as html_comp
 from charts import grade_color, SCORE_COLS, SCORE_LABELS_MAP, SCORE_EMOJI
 import math
 
+try:
+    from config import CONFIG as APP_CONFIG
+except Exception:
+    APP_CONFIG = {}
+
 
 # ── Стиль карточек (общий) ──
 _CARD_STYLE = (
@@ -623,19 +628,14 @@ def _fetch_offers(lat, lon, deal_type, limit, city_name, grade, radius_km=1.2, d
     import re
     parser = get_parser()
     results = parser.search(
-        lat, lon, deal_type=deal_type, limit=limit,
-        city_name=city_name, grade=grade, radius_km=radius_km, district_name=district_name,
+        lat, lon, deal_type=deal_type, limit=max(int(limit), 2),
+        city_name=city_name, grade=grade, radius_km=max(float(radius_km or 1.2), 1.2), district_name=district_name,
     )
-    if not results:
-        # Second pass for sparse cities: wider radius and slightly larger limit.
-        results = parser.search(
-            lat, lon, deal_type=deal_type, limit=max(limit, 120),
-            city_name=city_name, grade=grade, radius_km=max(radius_km * 2.0, 2.4), district_name=district_name,
-        )
     for r in results:
         addr = r.get("address", "")
         if addr:
             r["address"] = re.sub(r'\s*На карте.*$', '', addr).strip()
+    results = _filter_offers_to_city(results, city_name)
     if results and district_name and len(results) > 2:
         district_lower = district_name.lower()
         stop_words = {"район", "округ", "микрорайон", "мкр", "имени", "им"}
@@ -666,13 +666,46 @@ def _haversine_km(lat1, lon1, lat2, lon2):
     return r * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
+def _filter_offers_to_city(offers, city_name):
+    if not offers:
+        return []
+    city = str(city_name or "").lower().replace("ё", "е").strip()
+    if not city:
+        return offers
+    city_tokens = [t for t in city.replace("-", " ").split() if len(t) >= 4]
+    aliases = {
+        "астрахань": ["astrahan", "astrakhan"],
+        "нижний новгород": ["nizhny", "nizhniy", "novgorod"],
+        "санкт петербург": ["spb", "peterburg", "petersburg"],
+        "москва": ["moscow"],
+        "екатеринбург": ["ekaterinburg"],
+    }
+    for key, vals in aliases.items():
+        if city == key or key in city:
+            city_tokens.extend(vals)
+            break
+    keep = []
+    for row in offers:
+        text = " ".join([
+            str(row.get("address", "") or ""),
+            str(row.get("title", "") or ""),
+            str(row.get("link", "") or ""),
+            str(row.get("_query", "") or ""),
+            str(row.get("_city_hint", "") or ""),
+        ]).lower().replace("ё", "е")
+        hinted = str(row.get("_city_hint", "") or "").lower().replace("ё", "е")
+        if any(tok in text for tok in city_tokens) or (hinted and hinted == city):
+            keep.append(row)
+    return keep
+
+
 def _filter_offers_to_district(offers, district_name, center_lat, center_lon, radius_km=1.2):
     if not offers:
         return []
     name = str(district_name or "").lower().replace("ё", "е").strip()
     stop_words = {"район", "округ", "микрорайон", "мкр", "имени", "им"}
     keys = [w for w in name.split() if len(w) > 2 and w not in stop_words]
-    near_km = max(1.2, float(radius_km or 1.2) * 1.25)
+    near_km = max(2.4, float(radius_km or 1.2) * 2.4)
 
     keep = []
     for row in offers:
@@ -692,7 +725,7 @@ def _filter_offers_to_district(offers, district_name, center_lat, center_lon, ra
             keep.append(row)
             continue
 
-    return keep if keep else offers[:max(1, min(6, len(offers)))]
+    return keep if keep else offers[:max(1, min(4, len(offers)))]
 
 
 def realty_cards(row, city_name):
@@ -701,52 +734,86 @@ def realty_cards(row, city_name):
     lat = row.get("lat", 0)
     lon = row.get("lon", 0)
     grade = row.get("grade", "C")
-    radius_km = 1.2
+    radius_km = max(
+        2.4,
+        float((APP_CONFIG or {}).get("realty_live_radius_km", 2.4) or 2.4),
+    )
 
     if not lat or not lon:
         st.caption(f"Нет координат для {name}")
         return
 
-    tab_buy, tab_rent = st.tabs(["🔑 Купить", "📋 Снять"])
-    page_size = 6
+    page_size = 4
+    mode = st.segmented_control(
+        "Режим",
+        options=["🔑 Купить", "📋 Снять"],
+        default="🔑 Купить",
+        key=f"realty_mode::{city_name}::{name}",
+    )
+    deal_type = "rent" if mode == "📋 Снять" else "sale"
+    deal_label = "аренде" if deal_type == "rent" else "покупке"
 
-    for tab, deal_type, deal_label in [
-        (tab_buy, "sale", "покупке"),
-        (tab_rent, "rent", "аренде"),
-    ]:
-        with tab:
-            with st.spinner(f"Поиск квартир по {deal_label}..."):
-                offers = _fetch_offers(
-                    round(lat, 4), round(lon, 4),
-                    deal_type, 96, city_name, grade, radius_km, name,
-                )
+    max_fetch = 64
+    page_key = f"realty_page::{city_name}::{name}::{deal_type}"
+    pending_page_key = f"realty_pending_page::{city_name}::{name}::{deal_type}"
+    offers_key = f"realty_loaded_offers::{city_name}::{name}::{deal_type}"
+    loaded_limit_key = f"realty_loaded_limit::{city_name}::{name}::{deal_type}"
 
-            if not offers:
-                _show_fallback_links(lat, lon, deal_type, name, city_name)
-                continue
+    if page_key not in st.session_state:
+        st.session_state[page_key] = 1
+    pending_page = st.session_state.pop(pending_page_key, None)
+    if pending_page is not None:
+        try:
+            st.session_state[page_key] = max(1, int(pending_page))
+        except Exception:
+            pass
+    current_page = int(st.session_state.get(page_key, 1) or 1)
+    target_limit = min(max_fetch, max(page_size, current_page * page_size))
 
-            pages = max(1, (len(offers) + page_size - 1) // page_size)
-            page_idx = int(st.number_input(
-                "Страница",
-                min_value=1,
-                max_value=pages,
-                value=1,
-                step=1,
-                key=f"realty_cards_page::{city_name}::{name}::{deal_type}",
-            ))
-            start = (page_idx - 1) * page_size
-            end = start + page_size
-            page_offers = offers[start:end]
-            st.caption(f"Показаны {start + 1}-{min(end, len(offers))} из {len(offers)}")
+    loaded_offers = st.session_state.get(offers_key) or []
+    loaded_limit = int(st.session_state.get(loaded_limit_key, 0) or 0)
 
-            cards_html = ""
-            for i, o in enumerate(page_offers):
-                cards_html += _build_card_html(o, start + i)
+    need_fetch = (not loaded_offers) or (loaded_limit < target_limit) or (len(loaded_offers) < target_limit)
+    if need_fetch:
+        with st.spinner(f"Поиск квартир по {deal_label}..."):
+            fresh = _fetch_offers(
+                round(lat, 4), round(lon, 4),
+                deal_type, target_limit, city_name, grade, radius_km, name,
+            )
+        st.session_state[offers_key] = fresh or []
+        st.session_state[loaded_limit_key] = target_limit
+        loaded_offers = st.session_state.get(offers_key) or []
 
-            dc_url = RealtyParser.make_domclick_url(lat, lon, deal_type)
-            ci_url = RealtyParser.make_cian_url(lat, lon, deal_type)
+    if not loaded_offers:
+        _show_fallback_links(lat, lon, deal_type, name, city_name)
+        return
 
-            page = f"""<!DOCTYPE html>
+    total_loaded = len(loaded_offers)
+    max_page = max(1, (total_loaded + page_size - 1) // page_size)
+    if current_page > max_page:
+        current_page = max_page
+        st.session_state[page_key] = current_page
+
+    page_idx = int(st.number_input(
+        "Страница",
+        min_value=1,
+        max_value=max_page,
+        step=1,
+        key=page_key,
+    ))
+    start = (page_idx - 1) * page_size
+    end = min(start + page_size, total_loaded)
+    page_offers = loaded_offers[start:end]
+    st.caption(f"Страница {page_idx}/{max_page} · Показаны {start + 1}-{end} из {total_loaded}")
+
+    cards_html = ""
+    for i, o in enumerate(page_offers):
+        cards_html += _build_card_html(o, start + i)
+
+    dc_url = RealtyParser.make_domclick_url(lat, lon, deal_type)
+    ci_url = RealtyParser.make_cian_url(lat, lon, deal_type)
+
+    page = f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8">
 <style>
     * {{ box-sizing:border-box; margin:0; padding:0; }}
@@ -761,13 +828,15 @@ def realty_cards(row, city_name):
         border:1px solid #e1e1e1;
         border-radius:12px;
         overflow:hidden;
-        transition: box-shadow 0.2s, transform 0.15s;
         display:flex;
         flex-direction:column;
+        opacity:1 !important;
+        filter:none !important;
     }}
+    .card * {{ opacity:1 !important; filter:none !important; }}
+    .card a {{ color: inherit !important; text-decoration:none; }}
     .card:hover {{
         box-shadow:0 8px 24px rgba(0,0,0,0.08);
-        transform:translateY(-2px);
     }}
     .card img {{ display:block; }}
     .arrow-zone {{
@@ -794,10 +863,21 @@ def realty_cards(row, city_name):
 {_CAROUSEL_JS}
 </body></html>"""
 
-            # Mobile-friendly height: use a denser estimate (2 cards per row)
-            # so single-column layouts on phones are less cramped.
-            n_rows = max(1, (len(page_offers) + 1) // 2)
-            html_comp.html(page, height=n_rows * 340 + 90, scrolling=True)
+    # Mobile-friendly height: use a denser estimate (2 cards per row)
+    # so single-column layouts on phones are less cramped.
+    n_rows = max(1, (len(page_offers) + 1) // 2)
+    html_comp.html(page, height=n_rows * 340 + 90, scrolling=True)
+    if (page_idx * page_size) < max_fetch and (total_loaded >= page_idx * page_size):
+        if st.button(
+            "Загрузить ещё 4",
+            key=f"realty_load_more::{city_name}::{name}::{deal_type}",
+            width="stretch",
+        ):
+            st.session_state[pending_page_key] = min(
+                page_idx + 1,
+                max((target_limit + page_size - 1) // page_size, page_idx + 1),
+            )
+            st.rerun()
 
 
 def _show_fallback_links(lat, lon, deal_type, name, city_name):

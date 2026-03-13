@@ -13,9 +13,6 @@ from .realty_strategies import (
     strategy_direct_api,
     strategy_list_page,
     strategy_bbox_search,
-    strategy_http_api,
-    strategy_http_list_page,
-    strategy_http_text_search,
 )
 
 # Реэкспорт утилит для обратной совместимости
@@ -80,12 +77,30 @@ class RealtyParser:
             raw_results = list(results or [])
             before = len(raw_results)
             cluster_fallbacks = [r for r in raw_results if r.get("_from_cluster")]
+            text_fallback_rows = [r for r in raw_results if r.get("_http_text_fallback")]
             results = [r for r in results if is_valid_listing(r)]
             if before > len(results):
                 print(
                     f"      🧹 Отфильтровано "
                     f"{before - len(results)} битых объявлений"
                 )
+            if not results and text_fallback_rows:
+                rescued = []
+                for row in text_fallback_rows:
+                    try:
+                        price = float(row.get("price", 0) or 0)
+                    except Exception:
+                        price = 0
+                    link = str(row.get("link", "") or "")
+                    addr = str(row.get("address", "") or "")
+                    if price > 0 and (link.startswith("http") or len(addr.strip()) >= 6):
+                        rescued.append(row)
+                if rescued:
+                    results = rescued[:limit]
+                    print(
+                        f"      ℹ️ Rescue after strict-validation: "
+                        f"{len(results)} из HTTP text fallback"
+                    )
             if not results and cluster_fallbacks:
                 results = cluster_fallbacks[:limit]
                 print(
@@ -120,14 +135,41 @@ class RealtyParser:
                 r['address'] = clean_address(r.get('address', ''))
 
             # Safety-filter: cut obviously wrong-city listings before caching.
-            results = self._filter_by_location_hint(
+            location_filtered = self._filter_by_location_hint(
                 results=results,
                 center_lat=lat,
                 center_lon=lon,
                 city_name=city_name,
+                district_name=district_name,
+                radius_km=radius_km,
             )
+            if not location_filtered and results:
+                text_fallback_rows = [r for r in results if r.get("_http_text_fallback")]
+                if text_fallback_rows:
+                    rescued = []
+                    for row in text_fallback_rows:
+                        try:
+                            price = float(row.get("price", 0) or 0)
+                        except Exception:
+                            price = 0
+                        link = str(row.get("link", "") or "")
+                        addr = str(row.get("address", "") or "")
+                        if price > 0 and (link.startswith("http") or len(addr.strip()) >= 6):
+                            rescued.append(row)
+                    if rescued:
+                        location_filtered = rescued[:limit]
+                        print(
+                            f"      ℹ️ Rescue after location-filter: "
+                            f"{len(location_filtered)} из HTTP text fallback"
+                        )
+            results = location_filtered
 
-            self._cache.set(key, results)
+            # Do not cache empty responses: transient network/captcha failures
+            # would otherwise freeze this point for cache TTL hours.
+            if results:
+                self._cache.set(key, results)
+            else:
+                print("      🧊 Пустой результат не кэшируем (anti-stale miss)")
 
             if results:
                 print(f"      ✅ {len(results)} реальных объявлений")
@@ -136,15 +178,43 @@ class RealtyParser:
 
             return results
 
-    def _filter_by_location_hint(self, results, center_lat, center_lon, city_name=""):
+    def _filter_by_location_hint(
+        self,
+        results,
+        center_lat,
+        center_lon,
+        city_name="",
+        district_name="",
+        radius_km=1.5,
+    ):
         if not results:
             return []
         city_hint = str(city_name or "").strip().lower().replace("ё", "е")
+        district_hint = str(district_name or "").strip().lower().replace("ё", "е")
         city_tokens = [t for t in city_hint.replace("-", " ").split() if len(t) >= 4]
-        max_km = 35.0
+        district_tokens = [
+            t for t in district_hint.replace("-", " ").split()
+            if len(t) >= 3 and t not in {"район", "округ", "ао", "микрорайон", "мкр"}
+        ]
+        city_aliases = {
+            "астрахань": ["astrahan", "astrakhan"],
+            "нижний новгород": ["nizhny", "nizhniy", "novgorod"],
+            "санкт петербург": ["spb", "peterburg", "petersburg"],
+            "москва": ["moscow"],
+            "екатеринбург": ["ekaterinburg"],
+        }
+        for key, vals in city_aliases.items():
+            if city_hint == key or key in city_hint:
+                city_tokens.extend(vals)
+                break
+
+        max_km = max(24.0, float(radius_km or 1.5) * 8.0)
+        near_km = max(2.2, float(radius_km or 1.5) * 1.8)
         filtered = []
         for row in results:
             keep = False
+            city_match = False
+            district_match = False
             try:
                 olat = row.get("lat")
                 olon = row.get("lon")
@@ -152,97 +222,60 @@ class RealtyParser:
                     dist = haversine(float(center_lat), float(center_lon), float(olat), float(olon))
                     if dist <= max_km:
                         keep = True
+                    if dist <= near_km:
+                        district_match = True
             except Exception:
                 pass
 
-            if not keep and city_tokens:
-                text = " ".join([
-                    str(row.get("address", "") or ""),
-                    str(row.get("link", "") or ""),
-                    str(row.get("title", "") or ""),
-                ]).lower().replace("ё", "е")
-                if any(tok in text for tok in city_tokens):
-                    keep = True
+            text = " ".join([
+                str(row.get("address", "") or ""),
+                str(row.get("link", "") or ""),
+                str(row.get("title", "") or ""),
+                str(row.get("_query", "") or ""),
+                str(row.get("_city_hint", "") or ""),
+                str(row.get("_district_hint", "") or ""),
+            ]).lower().replace("ё", "е")
+            if city_tokens:
+                city_match = any(tok in text for tok in city_tokens)
+                if not city_match:
+                    city_hint_text = str(row.get("_city_hint", "") or "").lower().replace("ё", "е")
+                    city_match = city_hint_text == city_hint
+            else:
+                city_match = True
+            if district_tokens:
+                district_match = district_match or any(tok in text for tok in district_tokens)
+                if not district_match:
+                    d_hint = str(row.get("_district_hint", "") or "").lower().replace("ё", "е")
+                    district_match = any(tok in d_hint for tok in district_tokens)
+            else:
+                district_match = True
 
-            if not city_tokens:
+            # Must belong to requested city; district can be matched by text or proximity.
+            if city_match and district_match:
                 keep = True
 
             if keep:
                 filtered.append(row)
-
         return filtered
 
     def _parse_cian(self, lat, lon, deal_type, limit, radius_km, city_name="", district_name=""):
         """Запуск стратегий парсинга ЦИАН последовательно."""
-        # Инициализация драйвера
-        driver = self._driver_mgr.get_driver()
         region_id = detect_cian_region(city_name) or 4777
 
+        # Инициализация драйвера
+        driver = self._driver_mgr.get_driver()
+
         if not driver:
-            results = strategy_http_api(
-                lat=lat,
-                lon=lon,
-                deal_type=deal_type,
-                limit=limit,
-                radius_km=radius_km,
-                region_id=region_id,
-                city_name=city_name,
-            )
-            if results:
-                return results
-            results = strategy_http_list_page(
-                lat=lat,
-                lon=lon,
-                deal_type=deal_type,
-                limit=limit,
-                radius_km=radius_km,
-                region_id=region_id,
-                city_name=city_name,
-            )
-            if results:
-                return results
-            return strategy_http_text_search(
-                deal_type=deal_type,
-                limit=limit,
-                region_id=region_id,
-                city_name=city_name,
-                district_name=district_name,
-            )
+            print("      ⛔ Chrome-only режим: HTTP fallback отключен")
+            return []
 
         try:
             driver.current_url
         except Exception:
             driver = self._driver_mgr.restart_driver()
             if not driver:
-                results = strategy_http_api(
-                    lat=lat,
-                    lon=lon,
-                    deal_type=deal_type,
-                    limit=limit,
-                    radius_km=radius_km,
-                    region_id=region_id,
-                    city_name=city_name,
-                )
-                if results:
-                    return results
-                results = strategy_http_list_page(
-                    lat=lat,
-                    lon=lon,
-                    deal_type=deal_type,
-                    limit=limit,
-                    radius_km=radius_km,
-                    region_id=region_id,
-                    city_name=city_name,
-                )
-                if results:
-                    return results
-                return strategy_http_text_search(
-                    deal_type=deal_type,
-                    limit=limit,
-                    region_id=region_id,
-                    city_name=city_name,
-                    district_name=district_name,
-                )
+                print("      ⛔ Chrome-only режим: драйвер недоступен после restart")
+                return []
 
         # Стратегия 1: Карта с перехватом кластеров
         results = strategy_map_clusters(
@@ -275,35 +308,7 @@ class RealtyParser:
         )
         if results:
             return results
-        results = strategy_http_api(
-            lat=lat,
-            lon=lon,
-            deal_type=deal_type,
-            limit=limit,
-            radius_km=radius_km,
-            region_id=region_id,
-            city_name=city_name,
-        )
-        if results:
-            return results
-        results = strategy_http_list_page(
-            lat=lat,
-            lon=lon,
-            deal_type=deal_type,
-            limit=limit,
-            radius_km=radius_km,
-            region_id=region_id,
-            city_name=city_name,
-        )
-        if results:
-            return results
-        return strategy_http_text_search(
-            deal_type=deal_type,
-            limit=limit,
-            region_id=region_id,
-            city_name=city_name,
-            district_name=district_name,
-        )
+        return []
 
     # Обратная совместимость — статические методы
     @staticmethod

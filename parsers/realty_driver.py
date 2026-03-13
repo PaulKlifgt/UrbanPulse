@@ -33,8 +33,10 @@ class DriverManager:
     def __init__(self):
         self._driver = None
         self._driver_failed = False
-        # 12s is often too short on macOS for first headless startup.
-        self._startup_timeout_sec = int(os.environ.get("REALTY_DRIVER_STARTUP_TIMEOUT_SEC", "45"))
+        self._last_failure_ts = 0.0
+        self._startup_timeout_sec = int(os.environ.get("REALTY_DRIVER_STARTUP_TIMEOUT_SEC", "12"))
+        self._retry_cooldown_sec = int(os.environ.get("REALTY_DRIVER_RETRY_COOLDOWN_SEC", "45"))
+        self._max_candidates = int(os.environ.get("REALTY_DRIVER_MAX_CANDIDATES", "2"))
 
     @property
     def driver(self):
@@ -237,10 +239,19 @@ class DriverManager:
             except Exception:
                 self._driver = None
 
-        self._driver_failed = False
-
         if not HAS_SELENIUM:
             return None
+
+        # If Chrome startup failed recently, don't block every request with retries.
+        if self._driver_failed and self._last_failure_ts > 0:
+            elapsed = time.time() - self._last_failure_ts
+            if elapsed < self._retry_cooldown_sec:
+                left = int(self._retry_cooldown_sec - elapsed)
+                print(
+                    "      ⏭️ Пропускаю запуск Chrome: cooldown после ошибки "
+                    f"({left}s)"
+                )
+                return None
 
         try:
             options = Options()
@@ -281,7 +292,7 @@ class DriverManager:
                     print(f"      ⚠️ webdriver_manager не подготовил драйвер: {exc}")
 
             tried_paths = set()
-            for label, path in driver_candidates:
+            for label, path in driver_candidates[:max(1, self._max_candidates)]:
                 if not path or path in tried_paths:
                     continue
                 tried_paths.add(path)
@@ -321,15 +332,22 @@ class DriverManager:
                 {"source": INTERCEPT_SCRIPT}
             )
 
+            self._driver_failed = False
+            self._last_failure_ts = 0.0
             return self._driver
 
         except Exception as e:
             print(f"      ❌ Chrome не запустился: {e}")
             self._driver_failed = True
+            self._last_failure_ts = time.time()
             return None
 
     def restart_driver(self):
         """Перезапуск Chrome."""
+        if self._driver_failed and self._last_failure_ts > 0:
+            elapsed = time.time() - self._last_failure_ts
+            if elapsed < self._retry_cooldown_sec:
+                return None
         print("      🔄 Перезапуск Chrome...")
         try:
             if self._driver:
@@ -337,7 +355,6 @@ class DriverManager:
         except Exception:
             pass
         self._driver = None
-        self._driver_failed = False
         return self.get_driver()
 
     def close(self):

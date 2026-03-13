@@ -36,14 +36,15 @@ def is_valid_listing(item: dict) -> bool:
     rooms = item.get('rooms', '?')
 
     has_photos = bool(photos) or bool(photo)
-    has_real_address = bool(address) and len(address) >= 15
+    has_real_address = bool(address) and len(address) >= 8
     has_details = bool(area) and area > 0 and rooms != '?'
+    has_link = str(item.get("link", "") or "").startswith("http")
 
     if item.get('_from_cluster'):
         return False
-    if not has_photos and not has_details:
+    if not has_link:
         return False
-    if not has_photos and not has_real_address:
+    if not has_photos and not has_details and not has_real_address:
         return False
 
     return True

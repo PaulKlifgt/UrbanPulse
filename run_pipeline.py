@@ -544,6 +544,21 @@ def _text_matches_city(text, city_name):
     return any(stem in hay for stem in stems)
 
 
+def _is_wrong_region_candidate(display_name, city_name):
+    """Hard guard against common inter-region false positives in geocoding."""
+    lo = str(display_name or "").lower().replace("ё", "е")
+    city = str(city_name or "").lower().replace("ё", "е").strip()
+    if not lo or not city:
+        return False
+
+    # Moscow AO often gets matched to districts in Moscow Oblast.
+    if city == "москва":
+        has_moscow_city = ("город москва" in lo) or (", москва" in lo) or ("москва, россия" in lo)
+        if "московская область" in lo and not has_moscow_city:
+            return True
+    return False
+
+
 def _extract_zone_city_from_query(addr):
     parts = [p.strip() for p in str(addr or "").split(",") if p.strip()]
     if len(parts) >= 2:
@@ -633,8 +648,18 @@ def _geometry_to_polygons(geom):
 
 def _combine_geometries(geoms):
     polygons = []
+    seen = set()
     for geom in geoms:
-        polygons.extend(_geometry_to_polygons(geom))
+        for poly in _geometry_to_polygons(geom):
+            try:
+                # Dedup identical polygons from multiple query hits.
+                key = json.dumps(poly, ensure_ascii=False, separators=(",", ":"), default=str)
+            except Exception:
+                key = str(poly)
+            if key in seen:
+                continue
+            seen.add(key)
+            polygons.append(poly)
     if not polygons:
         return None
     if len(polygons) == 1:
@@ -652,6 +677,8 @@ def _fetch_geometry_by_queries(queries, zone_name, city_name, zone_type, center,
             zone_type=zone_type,
         )
         if not geom or not geom.get("geojson"):
+            continue
+        if _is_wrong_region_candidate(geom.get("display_name", ""), city_name):
             continue
         if city_name and not _text_matches_city(geom.get("display_name", ""), city_name):
             point_limit_km = max(max_dist_km * 1.5, max_dist_km + 15.0)
@@ -1009,6 +1036,8 @@ def geo_polygon_nom(addr, zone_name=None, city_name=None, zone_type=None):
                 if not geom or geom.get("type") not in ("Polygon", "MultiPolygon"):
                     continue
                 disp = str(item.get("display_name", "") or "")
+                if _is_wrong_region_candidate(disp, city_name):
+                    continue
                 first = clean_name(disp.split(",")[0]).lower().strip()
                 all_text = f"{disp} {item.get('type','')} {item.get('class','')}".lower()
                 score = 0
@@ -1539,6 +1568,10 @@ def _stabilize_preset_districts(zones, city_key, city_info):
     saved_geometries = _load_saved_zone_geometries(city_key)
     restored = 0
     recentered = 0
+    recovered = 0
+    city_name = city_info.get("osm_name") or city_info.get("full_name") or city_key
+    city_center = tuple(city_info.get("center", (0.0, 0.0)))
+    max_dist_km = max(_get_zone_max_dist(city_info), 40.0)
 
     for zone in zones:
         name = clean_name(str(zone.get("name", "")).strip()) or str(zone.get("name", "")).strip()
@@ -1555,6 +1588,52 @@ def _stabilize_preset_districts(zones, city_key, city_info):
             if str(zone.get("source", "")) == "preset_missing":
                 zone["source"] = "preset_restored"
             restored += 1
+
+        # Second-chance geometry recovery for preset zones that still have no contour.
+        if not zone.get("geojson"):
+            query_list = list(spec.get("geometry_queries") or [])
+            if not query_list:
+                query_list = _district_queries(name, city_name)
+            # Prefer district center (if preset has one), fallback to city center.
+            try:
+                fallback_center = (
+                    float(spec.get("lat")) if spec.get("lat") is not None else float(city_center[0]),
+                    float(spec.get("lon")) if spec.get("lon") is not None else float(city_center[1]),
+                )
+            except Exception:
+                fallback_center = city_center
+
+            recovered_geo = _fetch_geometry_by_queries(
+                query_list,
+                zone_name=name,
+                city_name=city_name,
+                zone_type="district",
+                center=fallback_center,
+                max_dist_km=max_dist_km,
+                trusted_district=True,
+            )
+
+            if not recovered_geo and spec.get("osm_relation_id"):
+                rel_geo = _lookup_relation_geometry(
+                    spec.get("osm_relation_id"),
+                    fallback_lat=fallback_center[0] if fallback_center else None,
+                    fallback_lon=fallback_center[1] if fallback_center else None,
+                )
+                if rel_geo and rel_geo.get("geojson"):
+                    recovered_geo = {
+                        "geojson": rel_geo.get("geojson"),
+                        "lat": rel_geo.get("lat"),
+                        "lon": rel_geo.get("lon"),
+                    }
+
+            if recovered_geo and recovered_geo.get("geojson"):
+                zone["geojson"] = recovered_geo["geojson"]
+                if recovered_geo.get("lat") is not None and recovered_geo.get("lon") is not None:
+                    zone["lat"] = round(float(recovered_geo["lat"]), 6)
+                    zone["lon"] = round(float(recovered_geo["lon"]), 6)
+                zone["source"] = "preset_recovered"
+                zone.pop("needs_geometry", None)
+                recovered += 1
 
         if zone.get("geojson"):
             anchor = _geometry_anchor_point(zone["geojson"])
@@ -1585,8 +1664,11 @@ def _stabilize_preset_districts(zones, city_key, city_info):
                 except (TypeError, ValueError):
                     pass
 
-    if restored or recentered:
-        print(f"    ♻️ Stabilize preset districts: restored={restored}, recentered={recentered}")
+    if restored or recentered or recovered:
+        print(
+            "    ♻️ Stabilize preset districts:"
+            f" restored={restored}, recovered={recovered}, recentered={recentered}"
+        )
     return zones
 
 

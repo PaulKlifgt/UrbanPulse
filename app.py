@@ -110,6 +110,30 @@ def load_data_raw(city, _version):
     """Загружает данные."""
     base = os.path.join(DATA_DIR, city, "processed")
     df = pd.read_csv(os.path.join(base, "districts_final.csv"))
+
+    # Hotfix: for preset zones with explicit coordinates (e.g. Moscow AO),
+    # prefer config coordinates over stale centers from old pipeline runs.
+    city_info = (APP_CONFIG.get("cities") or {}).get(city, {})
+    preset_zones = city_info.get("preset_zones") or []
+    preset_coords = {}
+    for spec in preset_zones:
+        if not isinstance(spec, dict):
+            continue
+        name = str(spec.get("name", "") or "").strip()
+        lat = spec.get("lat")
+        lon = spec.get("lon")
+        if not name or lat is None or lon is None:
+            continue
+        try:
+            preset_coords[name] = (float(lat), float(lon))
+        except Exception:
+            continue
+    if preset_coords and not df.empty and "district" in df.columns:
+        for district_name, (plat, plon) in preset_coords.items():
+            mask = df["district"].astype(str).str.strip() == district_name
+            if mask.any():
+                df.loc[mask, "lat"] = plat
+                df.loc[mask, "lon"] = plon
     
     stats = {}
     stats_path = os.path.join(DATA_DIR, city, "pipeline_stats.json")
@@ -266,7 +290,7 @@ def _relevance_filter_and_sort_offers(offers, district_name, city_name, center_l
     words, phrases = _district_keywords(district_name)
     city_words = _city_keywords(city_name)
     city_slugs = _city_link_slugs(city_name)
-    hard_max_km = max(2.5, float(radius_km or 1.0) * 3.0)
+    hard_max_km = max(6.0, float(radius_km or 1.0) * 6.0)
     scored = []
     for offer in offers:
         row = dict(offer)
@@ -300,7 +324,7 @@ def _relevance_filter_and_sort_offers(offers, district_name, city_name, center_l
             continue
         # Районный фильтр: если нет явного совпадения по району, оставляем
         # только очень близкие к центру зоны офферы (обычно в пределах ~1.2 км).
-        strict_near_km = max(1.2, float(radius_km or 1.0) * 1.2)
+        strict_near_km = max(2.6, float(radius_km or 1.0) * 2.6)
         if district_hits == 0:
             if dist is None or dist > strict_near_km:
                 continue

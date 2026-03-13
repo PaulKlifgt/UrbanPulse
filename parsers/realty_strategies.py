@@ -5,6 +5,7 @@ import time
 import re
 import requests
 import os
+import math
 
 try:
     from selenium.webdriver.common.by import By
@@ -28,9 +29,9 @@ from .realty_dom_parser import (
 
 def _http_budget_sec():
     try:
-        return max(8, int(os.environ.get("REALTY_HTTP_BUDGET_SEC", "28")))
+        return max(6, int(os.environ.get("REALTY_HTTP_BUDGET_SEC", "10")))
     except Exception:
-        return 28
+        return 10
 
 
 def _cian_host_candidates(city_name):
@@ -389,6 +390,7 @@ def _filter_http_results(results, lat, lon, city_name, radius_km):
     if not results:
         return []
     city = str(city_name or "").lower().replace("ё", "е").strip()
+    city_tokens = [t for t in re.split(r"[\s\-]+", city) if len(t) >= 4]
     keep = []
     max_km = max(25.0, float(radius_km or 1.0) * 8.0)
     for r in results:
@@ -408,7 +410,7 @@ def _filter_http_results(results, lat, lon, city_name, radius_km):
                 str(r.get("link", "") or ""),
                 str(r.get("title", "") or ""),
             ]).lower().replace("ё", "е")
-            if city in txt:
+            if city in txt or any(tok in txt for tok in city_tokens):
                 ok = True
         if ok:
             keep.append(r)
@@ -423,11 +425,10 @@ def strategy_http_api(lat, lon, deal_type, limit, radius_km, region_id, city_nam
         "https://api.cian.ru/search-offers/v2/search-offers-desktop/",
         "https://api.cian.ru/search-offers-index-map/v1/get-clusters-for-map/",
     ]
-    payload = {
+    payload_base = {
         "jsonQuery": {
             "_type": "flatrent" if deal_type == "rent" else "flatsale",
             "engine_version": {"type": "term", "value": 2},
-            "region": {"type": "terms", "value": [region_id]},
             "bbox": {
                 "type": "term",
                 "value": {
@@ -450,29 +451,37 @@ def strategy_http_api(lat, lon, deal_type, limit, radius_km, region_id, city_nam
     }
     start_ts = time.monotonic()
     budget = _http_budget_sec()
+    region_variants = [True, False]
     for api_url in api_urls:
+        for with_region in region_variants:
+            payload = json.loads(json.dumps(payload_base))
+            if with_region and region_id:
+                payload["jsonQuery"]["region"] = {"type": "terms", "value": [region_id]}
+            if time.monotonic() - start_ts > budget:
+                print("         ⏱️ HTTP API fallback: time budget exceeded")
+                break
+            try:
+                resp = requests.post(api_url, headers=headers, json=payload, timeout=(6, 12))
+                if resp.status_code != 200 or not resp.text:
+                    continue
+                data = resp.json()
+                items = find_offers_recursive(data)
+                if not items:
+                    continue
+                results = []
+                for item in items[: max(limit * 2, 20)]:
+                    offer = cian_api_to_offer(item, deal_type)
+                    if offer:
+                        results.append(offer)
+                results = _filter_http_results(results, lat, lon, city_name, radius_km)
+                if results:
+                    mode = "region" if with_region else "no-region"
+                    print(f"         ✅ HTTP API fallback ({mode}): {len(results[:limit])} объявлений")
+                    return results[:limit]
+            except Exception:
+                continue
         if time.monotonic() - start_ts > budget:
-            print("         ⏱️ HTTP API fallback: time budget exceeded")
             break
-        try:
-            resp = requests.post(api_url, headers=headers, json=payload, timeout=(6, 12))
-            if resp.status_code != 200 or not resp.text:
-                continue
-            data = resp.json()
-            items = find_offers_recursive(data)
-            if not items:
-                continue
-            results = []
-            for item in items[: max(limit * 2, 20)]:
-                offer = cian_api_to_offer(item, deal_type)
-                if offer:
-                    results.append(offer)
-            results = _filter_http_results(results, lat, lon, city_name, radius_km)
-            if results:
-                print(f"         ✅ HTTP API fallback: {len(results[:limit])} объявлений")
-                return results[:limit]
-        except Exception:
-            continue
     return []
 
 
@@ -494,8 +503,10 @@ def strategy_http_list_page(lat, lon, deal_type, limit, radius_km, region_id, ci
     collected = []
     start_ts = time.monotonic()
     budget = _http_budget_sec()
+    pages_limit = min(10, max(2, int(math.ceil(max(limit, 20) / 24.0)) + 2))
 
     hosts = _cian_host_candidates(city_name)
+    region_params = [f"&region={region_id}" if region_id else "", ""]
     for mult in (1.0, 1.8):
         if time.monotonic() - start_ts > budget:
             print("         ⏱️ HTTP fallback: time budget exceeded")
@@ -506,41 +517,51 @@ def strategy_http_list_page(lat, lon, deal_type, limit, radius_km, region_id, ci
             if time.monotonic() - start_ts > budget:
                 print("         ⏱️ HTTP fallback: time budget exceeded")
                 break
-            for page in (1, 2):
+            for page in range(1, pages_limit + 1):
                 if time.monotonic() - start_ts > budget:
                     print("         ⏱️ HTTP fallback: time budget exceeded")
                     break
-                url = (
-                    f"https://{host}/cat.php?"
-                    f"deal_type={dt}"
-                    "&engine_version=2"
-                    "&offer_type=flat"
-                    f"&region={region_id}"
-                    f"&minlat={lat_min}&maxlat={lat_max}"
-                    f"&minlon={lon_min}&maxlon={lon_max}"
-                    f"&sort=creation_date_desc&p={page}"
-                )
-                try:
-                    resp = requests.get(url, headers=headers, timeout=timeout)
-                    if resp.status_code != 200 or not resp.text:
-                        continue
-                    results = parse_from_html_source(resp.text, deal_type, max(limit, 20), "cian")
-                    results = _filter_http_results(results, lat, lon, city_name, radius_km)
-                    for row in results:
-                        link = str(row.get("link", "") or "")
-                        if not link or link in seen_links:
+                for region_arg in region_params:
+                    url = (
+                        f"https://{host}/cat.php?"
+                        f"deal_type={dt}"
+                        "&engine_version=2"
+                        "&offer_type=flat"
+                        f"{region_arg}"
+                        f"&minlat={lat_min}&maxlat={lat_max}"
+                        f"&minlon={lon_min}&maxlon={lon_max}"
+                        f"&sort=creation_date_desc&p={page}"
+                    )
+                    try:
+                        resp = requests.get(url, headers=headers, timeout=timeout)
+                        if resp.status_code != 200 or not resp.text:
                             continue
-                        seen_links.add(link)
-                        collected.append(row)
-                    if len(collected) >= limit:
-                        print(f"         ✅ HTTP fallback: {len(collected[:limit])} объявлений (r={r:.1f}км, host={host})")
-                        return collected[:limit]
-                except requests.exceptions.RequestException as exc:
-                    msg = str(exc).lower()
-                    # For network/DNS failures, don't spend extra time on bigger radius.
-                    if any(x in msg for x in ("name or service not known", "failed to resolve", "nodename", "temporary failure in name resolution")):
-                        break
-                    continue
+                        results = parse_from_html_source(resp.text, deal_type, max(limit, 20), "cian")
+                        results = _filter_http_results(results, lat, lon, city_name, radius_km)
+                        if page > 1 and not results:
+                            # Usually means end of list for this query.
+                            break
+                        for row in results:
+                            row = dict(row or {})
+                            row["_http_text_fallback"] = True
+                            row["_query"] = q
+                            row["_city_hint"] = city_name
+                            row["_district_hint"] = district_name
+                            link = str(row.get("link", "") or "")
+                            if not link or link in seen_links:
+                                continue
+                            seen_links.add(link)
+                            collected.append(row)
+                        if len(collected) >= limit:
+                            mode = "region" if region_arg else "no-region"
+                            print(f"         ✅ HTTP fallback ({mode}): {len(collected[:limit])} объявлений (r={r:.1f}км, host={host})")
+                            return collected[:limit]
+                    except requests.exceptions.RequestException as exc:
+                        msg = str(exc).lower()
+                        # For network/DNS failures, don't spend extra time on bigger radius.
+                        if any(x in msg for x in ("name or service not known", "failed to resolve", "nodename", "temporary failure in name resolution")):
+                            break
+                        continue
         if len(collected) >= limit:
             break
 
@@ -566,10 +587,14 @@ def strategy_http_text_search(deal_type, limit, region_id, city_name="", distric
     }
     city = str(city_name or "").strip()
     district = str(district_name or "").strip()
+    district_short = re.sub(r"\bАО\b", "", district, flags=re.IGNORECASE).strip()
     queries = []
     if district and city:
         queries.append(f"{district} {city}")
         queries.append(f"район {district} {city}")
+    if district_short and district_short != district and city:
+        queries.append(f"{district_short} {city}")
+        queries.append(f"район {district_short} {city}")
     if city:
         queries.append(city)
 
@@ -578,6 +603,7 @@ def strategy_http_text_search(deal_type, limit, region_id, city_name="", distric
     collected = []
     start_ts = time.monotonic()
     budget = _http_budget_sec()
+    pages_limit = min(8, max(2, int(math.ceil(max(limit, 20) / 24.0)) + 1))
     for q in queries:
         if time.monotonic() - start_ts > budget:
             print("         ⏱️ HTTP text fallback: time budget exceeded")
@@ -587,36 +613,41 @@ def strategy_http_text_search(deal_type, limit, region_id, city_name="", distric
                 print("         ⏱️ HTTP text fallback: time budget exceeded")
                 break
             base_url = f"https://{host}/cat.php"
-            for page in (1, 2):
+            for page in range(1, pages_limit + 1):
                 if time.monotonic() - start_ts > budget:
                     print("         ⏱️ HTTP text fallback: time budget exceeded")
                     break
-                params = {
-                    "deal_type": dt,
-                    "engine_version": 2,
-                    "offer_type": "flat",
-                    "region": region_id,
-                    "sort": "creation_date_desc",
-                    "p": page,
-                    "q": q,
-                }
-                try:
-                    resp = requests.get(base_url, headers=headers, params=params, timeout=timeout)
-                    if resp.status_code != 200 or not resp.text:
-                        continue
-                    results = parse_from_html_source(resp.text, deal_type, max(limit, 20), "cian")
-                    results = _filter_http_results(results, 0, 0, city_name, 1000.0)
-                    for row in results:
-                        link = str(row.get("link", "") or "")
-                        if not link or link in seen_links:
+                for with_region in (True, False):
+                    params = {
+                        "deal_type": dt,
+                        "engine_version": 2,
+                        "offer_type": "flat",
+                        "sort": "creation_date_desc",
+                        "p": page,
+                        "q": q,
+                    }
+                    if with_region and region_id:
+                        params["region"] = region_id
+                    try:
+                        resp = requests.get(base_url, headers=headers, params=params, timeout=timeout)
+                        if resp.status_code != 200 or not resp.text:
                             continue
-                        seen_links.add(link)
-                        collected.append(row)
-                    if len(collected) >= limit:
-                        print(f"         ✅ HTTP text fallback: {len(collected[:limit])} объявлений (q={q}, host={host})")
-                        return collected[:limit]
-                except requests.exceptions.RequestException:
-                    continue
+                        results = parse_from_html_source(resp.text, deal_type, max(limit, 20), "cian")
+                        results = _filter_http_results(results, 0, 0, city_name, 1000.0)
+                        if page > 1 and not results:
+                            break
+                        for row in results:
+                            link = str(row.get("link", "") or "")
+                            if not link or link in seen_links:
+                                continue
+                            seen_links.add(link)
+                            collected.append(row)
+                        if len(collected) >= limit:
+                            mode = "region" if with_region else "no-region"
+                            print(f"         ✅ HTTP text fallback ({mode}): {len(collected[:limit])} объявлений (q={q}, host={host})")
+                            return collected[:limit]
+                    except requests.exceptions.RequestException:
+                        continue
 
     if collected:
         print(f"         ✅ HTTP text fallback: {len(collected[:limit])} объявлений")
@@ -742,7 +773,9 @@ def _quick_offers_from_clusters(driver_mgr, clusters, offer_ids,
                 clusters[0].get("subdomain", "www") if clusters else "www"
             )
 
-            max_pages = min(limit, 4)
+            # Old hard cap (4) caused chronically short output.
+            # Keep bounded to avoid very slow page-by-page scraping.
+            max_pages = min(limit, 18)
             for offer_id in offer_ids[:max_pages]:
                 try:
                     driver.execute_script("window._cianClusters = null;")
