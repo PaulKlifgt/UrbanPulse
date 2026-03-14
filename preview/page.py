@@ -529,9 +529,9 @@ def render_page() -> None:
                     <div class="pv-stat-copy">Суммарное число районов и зон в готовых наборах.</div>
                 </div>
                 <div class="pv-stat">
-                    <div class="pv-stat-label">Компонент скоринга</div>
+                    <div class="pv-stat-label">Компонентов скоринга</div>
                     <div class="pv-stat-value">{metrics["components"]}</div>
-                    <div class="pv-stat-copy">8 слоёв аналитики качества городской среды.</div>
+                    <div class="pv-stat-copy">{metrics["components"]} слоёв аналитики качества городской среды.</div>
                 </div>
                 <div class="pv-stat">
                     <div class="pv-stat-label">Категорий объектов</div>
