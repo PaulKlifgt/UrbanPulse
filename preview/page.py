@@ -472,7 +472,7 @@ def get_project_metrics() -> dict[str, int]:
         "cities": city_count or 32,
         "zones": zone_count,
         "components": 8,
-        "categories": 17,
+        "categories": 21,
     }
 
 
